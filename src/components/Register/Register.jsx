@@ -3,14 +3,13 @@ import { v4 as uniqueID } from "uuid";
 import "./Register.css";
 
 function getDataBase() {
-  let data = JSON.parse(localStorage.getItem("users"));
+  let data = localStorage.getItem("users");
   if (data) {
-    return data;
+    return JSON.parse(data);
   } else {
     return localStorage.setItem("users", JSON.stringify([]));
   }
 }
-
 function Register() {
   // This state will fetch initial data on local storage
   const [userDataBase, setUserDataBase] = useState(getDataBase());
