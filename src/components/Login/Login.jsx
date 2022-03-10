@@ -22,6 +22,7 @@ function Login({ setToken }) {
   useEffect(() => {
     if (Object.keys(errorLogs).length === 0 && errorStat) {
       setToken(true);
+      localStorage.setItem("isLoggedIn", JSON.stringify(true));
     }
   }, [errorLogs, errorStat, setToken]);
   return (

@@ -2,19 +2,19 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Login from "./components/Login/Login";
 import Homepage from "./components/Homepage/Homepage";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Register from "./components/Register/Register";
 import useGetData from "./components/utils/useGetData";
-import { useEffect } from "react";
 
 function App() {
   const [database] = useState(useGetData("users", "arr"));
-  const [token, setToken] = useState(useGetData(false));
+  const [token, setToken] = useState(
+    JSON.parse(localStorage.getItem("isLoggedIn"))
+  );
 
   useEffect(() => {
     localStorage.setItem("isLoggedIn", JSON.stringify(token));
   });
-
   return (
     <div className="App">
       <Router>
