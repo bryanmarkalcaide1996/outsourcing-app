@@ -5,25 +5,36 @@ import Homepage from "./components/Homepage/Homepage";
 import { useState } from "react";
 import Register from "./components/Register/Register";
 import { useEffect } from "react";
+import useGetData from "./components/utils/useGetData";
 
-function getDataBase() {
-  let data = localStorage.getItem("users");
-  if (data !== null) {
-    return JSON.parse(localStorage.getItem("users"));
-  } else {
-    return localStorage.setItem("users", JSON.stringify([]));
-  }
-}
 function App() {
+  const [database, useDatabase] = useState(useGetData());
   const [token, setToken] = useState(false);
-  useEffect(() => {
-    getDataBase();
-  });
+
+  console.log(database);
 
   return (
     <div className="App">
       <Router>
-        <Link to="/register">Register</Link>
+        <nav className="navigation-bar">
+          <ul className="navigation-container">
+            <li className="navigation-link-container">
+              <Link to="/" className="links">
+                Home
+              </Link>
+            </li>
+            <li className="navigation-link-container">
+              <Link to="/register" className="links">
+                Register
+              </Link>
+            </li>
+            <li className="navigation-link-container">
+              <Link to="/users" className="links">
+                Users
+              </Link>
+            </li>
+          </ul>
+        </nav>
 
         <Switch>
           {token && (

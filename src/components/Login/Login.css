@@ -1,0 +1,27 @@
+.login-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 120px;
+}
+.login-form-container {
+  background-color: teal;
+}
+.login-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 30vw;
+  justify-content: center;
+  padding: 20px;
+}
+.login-form-label {
+  margin: 20px;
+}
+.login-inputs {
+  padding: 10px;
+  width: 30vw;
+  box-sizing: border-box;
+}
