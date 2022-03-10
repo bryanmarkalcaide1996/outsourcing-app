@@ -1,11 +1,10 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import useValidate from "../utils/useValidate";
 import "./Login.css";
 
-function Login({ database }) {
+function Login({ setToken }) {
   const [user, setUser] = useState({ usernameInput: "", passwordInput: "" });
-  const [credential, setCredential] = useState({});
   const [errorLogs, setErrorLogs] = useState({});
   const [errorStat, setErrorStat] = useState(false);
 
@@ -17,9 +16,14 @@ function Login({ database }) {
   function useHandleSubmit(e) {
     e.preventDefault();
     setErrorLogs(useValidate(user));
-    // setCredential({ ...credential, user });
-    // setUser({ usernameInput: "", passwordInput: "" });
+    setErrorStat(true);
   }
+
+  useEffect(() => {
+    if (Object.keys(errorLogs).length === 0 && errorStat) {
+      setToken(true);
+    }
+  }, [errorLogs, errorStat, setToken]);
   return (
     <div className="login-section" onSubmit={useHandleSubmit}>
       <div className="login-form-container">

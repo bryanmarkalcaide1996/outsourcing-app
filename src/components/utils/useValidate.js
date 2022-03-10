@@ -1,7 +1,7 @@
 import useGetData from "./useGetData";
 
 export default function useValidate(data) {
-  let db = useGetData();
+  let db = useGetData("users", "arr");
   const regEx = /^[^\s@]+@[^\s@]+.[^\s@]{2,}$/;
   const regX =
     /^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{4})(?: *x(\d+))?\s*$/;
@@ -16,11 +16,13 @@ export default function useValidate(data) {
     phoneNumber,
   } = data;
 
+  // This line will retrieve data from database based on the criteria given below
   const foundData = db.find(
     ({ usernameInput: username, emailInput: email }) =>
       usernameInput === username || emailInput === email
   );
 
+  // This validation section is used to validate registration inputs it checks for the number of index and if the Object.keys count tallies with the given condition, it will enter inside the registration validation.
   if (Object.keys(data).length > 6) {
     if (foundData) {
       if (foundData.usernameInput === usernameInput) {
@@ -62,7 +64,9 @@ export default function useValidate(data) {
       }
     }
     return error;
-  } else {
+  }
+  // This section validates Login Page
+  else {
     if (foundData) {
       if (foundData.passwordInput !== passwordInput) {
         error.passwordInput = "* Invalid password !";

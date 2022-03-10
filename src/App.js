@@ -5,11 +5,15 @@ import Homepage from "./components/Homepage/Homepage";
 import { useState } from "react";
 import Register from "./components/Register/Register";
 import useGetData from "./components/utils/useGetData";
+import { useEffect } from "react";
 
 function App() {
-  const [database] = useState(useGetData());
-  const [token, setToken] = useState(false);
+  const [database] = useState(useGetData("users", "arr"));
+  const [token, setToken] = useState(useGetData("isLoggedIn", "bool"));
 
+  useEffect(() => {
+    localStorage.setItem("isLoggedIn", JSON.stringify(token));
+  }, [token]);
   return (
     <div className="App">
       <Router>
@@ -36,12 +40,12 @@ function App() {
         <Switch>
           {token && (
             <Route path="/">
-              <Homepage />
+              <Homepage setToken={setToken} />
             </Route>
           )}
 
           <Route exact path="/">
-            <Login database={database} />
+            <Login setToken={setToken} />
           </Route>
 
           <Route path={"/register"}>
