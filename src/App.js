@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Login from "./components/Login/Login";
 import Homepage from "./components/Homepage/Homepage";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import Register from "./components/Register/Register";
 import useGetData from "./components/utils/useGetData";
 
@@ -15,6 +15,7 @@ function App() {
   useEffect(() => {
     localStorage.setItem("isLoggedIn", JSON.stringify(token));
   });
+
   return (
     <div className="App">
       <Router>
