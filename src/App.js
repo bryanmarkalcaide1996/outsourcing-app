@@ -9,11 +9,11 @@ import { useEffect } from "react";
 
 function App() {
   const [database] = useState(useGetData("users", "arr"));
-  const [token, setToken] = useState(useGetData("isLoggedIn", "bool"));
+  const [token, setToken] = useState(useGetData(false));
 
   useEffect(() => {
     localStorage.setItem("isLoggedIn", JSON.stringify(token));
-  }, [token]);
+  });
 
   return (
     <div className="App">
