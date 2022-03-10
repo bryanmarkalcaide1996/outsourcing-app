@@ -3,11 +3,11 @@ import { v4 as uniqueID } from "uuid";
 import "./Register.css";
 
 function getDataBase() {
-  let usersData = JSON.parse(localStorage.getItem("users"));
-  if (usersData) {
-    return usersData;
+  let data = JSON.parse(localStorage.getItem("users"));
+  if (data) {
+    return data;
   } else {
-    localStorage.setItem("users", JSON.stringify([]));
+    return localStorage.setItem("users", JSON.stringify([]));
   }
 }
 
@@ -26,6 +26,28 @@ function Register() {
   const [errorLogs, setErrorLogs] = useState({});
   const [errorStat, setErrorStat] = useState(false);
   const [catalyst, setCatalyst] = useState(null);
+
+  useEffect(() => {
+    if (Object.keys(errorLogs).length === 0 && errorStat) {
+      setUserDataBase((prevState) => {
+        const newUser = { id: uniqueID(), ...catalyst };
+        return [...prevState, newUser];
+      });
+    }
+  }, [errorLogs, errorStat, catalyst]);
+
+  useEffect(() => {
+    userDataBase && localStorage.setItem("users", JSON.stringify(userDataBase));
+    setRegisterUser({
+      usernameInput: "",
+      emailInput: "",
+      passwordInput: "",
+      passwordReInput: "",
+      firstName: "",
+      lastName: "",
+      phoneNumber: "",
+    });
+  }, [userDataBase]);
 
   function handleChange(e) {
     const { name, value } = e.target;
@@ -79,28 +101,6 @@ function Register() {
     }
     return error;
   }
-
-  useEffect(() => {
-    if (Object.keys(errorLogs).length === 0 && errorStat) {
-      setUserDataBase((prevState) => {
-        const newUser = { id: uniqueID(), ...catalyst };
-        return [...prevState, newUser];
-      });
-    }
-  }, [errorLogs, errorStat, catalyst]);
-
-  useEffect(() => {
-    localStorage.setItem("users", JSON.stringify(userDataBase));
-    setRegisterUser({
-      usernameInput: "",
-      emailInput: "",
-      passwordInput: "",
-      passwordReInput: "",
-      firstName: "",
-      lastName: "",
-      phoneNumber: "",
-    });
-  }, [userDataBase]);
 
   return (
     <article>
