@@ -8,10 +8,10 @@ import useGetData from "./components/utils/useGetData";
 import { useEffect } from "react";
 
 function App() {
+  const [database] = useState(useGetData("users", "arr"));
   const [token, setToken] = useState(useGetData("isLoggedIn", "bool"));
-
   useEffect(() => {
-    token && localStorage.setItem("isLoggedIn", JSON.stringify(token));
+    localStorage.setItem("isLoggedIn", JSON.stringify(token));
   });
   return (
     <div className="App">
@@ -48,7 +48,7 @@ function App() {
           </Route>
 
           <Route path={"/register"}>
-            <Register />
+            <Register database={database} />
           </Route>
         </Switch>
       </Router>
