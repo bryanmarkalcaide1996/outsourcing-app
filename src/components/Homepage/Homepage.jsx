@@ -1,5 +1,4 @@
 import React from "react";
-import useGetData from "../utils/useGetData";
 
 function Homepage({ setToken }) {
   return (
