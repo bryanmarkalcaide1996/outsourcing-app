@@ -1,21 +1,27 @@
 import React from "react";
 import { useState } from "react";
-import useValidate from "../Register/useValidate";
-import useValitade from "../Register/useValidate";
+import useValidate from "../utils/useValidate";
 import "./Login.css";
 
-function Login(props) {
+function Login({ database }) {
   const [user, setUser] = useState({ usernameInput: "", passwordInput: "" });
+  const [credential, setCredential] = useState({});
+  const [errorLogs, setErrorLogs] = useState({});
+  const [errorStat, setErrorStat] = useState(false);
 
   function handleChange(e) {
     const { name, value } = e.target;
     setUser({ ...user, [name]: value });
   }
 
-  // const x = useValidate(user);
-
+  function useHandleSubmit(e) {
+    e.preventDefault();
+    setErrorLogs(useValidate(user));
+    // setCredential({ ...credential, user });
+    // setUser({ usernameInput: "", passwordInput: "" });
+  }
   return (
-    <div className="login-section">
+    <div className="login-section" onSubmit={useHandleSubmit}>
       <div className="login-form-container">
         <form className="login-form">
           <label className="login-form-label">
@@ -26,8 +32,10 @@ function Login(props) {
               className="login-inputs"
               onChange={handleChange}
               name="usernameInput"
+              value={user.usernameInput}
             />
           </label>
+          <small>{errorLogs?.usernameInput}</small>
 
           <label className="login-form-label">
             <h3> Password</h3>
@@ -37,8 +45,10 @@ function Login(props) {
               className="login-inputs"
               onChange={handleChange}
               name="passwordInput"
+              value={user.passwordInput}
             />
           </label>
+          <small>{errorLogs?.passwordInput}</small>
 
           <label className="login-form-label">
             <button className="login-inputs">Login</button>

@@ -1,13 +1,11 @@
 import { useState, useEffect } from "react";
 import { v4 as uniqueID } from "uuid";
 import "./Register.css";
-import useValidate from "./useValidate";
+import useValidate from "../utils/useValidate";
 
-function Register() {
+function Register({ database }) {
   // This state will fetch initial data on local storage
-  const [userDataBase, setUserDataBase] = useState(
-    JSON.parse(localStorage.getItem("users"))
-  );
+  const [userDataBase, setUserDataBase] = useState(database);
   const [registerUser, setRegisterUser] = useState({
     usernameInput: "",
     emailInput: "",

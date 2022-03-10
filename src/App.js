@@ -4,14 +4,11 @@ import Login from "./components/Login/Login";
 import Homepage from "./components/Homepage/Homepage";
 import { useState } from "react";
 import Register from "./components/Register/Register";
-import { useEffect } from "react";
 import useGetData from "./components/utils/useGetData";
 
 function App() {
-  const [database, useDatabase] = useState(useGetData());
+  const [database] = useState(useGetData());
   const [token, setToken] = useState(false);
-
-  console.log(database);
 
   return (
     <div className="App">
@@ -44,11 +41,11 @@ function App() {
           )}
 
           <Route exact path="/">
-            <Login />
+            <Login database={database} />
           </Route>
 
           <Route path={"/register"}>
-            <Register />
+            <Register database={database} />
           </Route>
         </Switch>
       </Router>
