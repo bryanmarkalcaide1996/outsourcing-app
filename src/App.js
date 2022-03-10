@@ -8,8 +8,9 @@ import useGetData from "./components/utils/useGetData";
 import { useEffect } from "react";
 
 function App() {
-  const [database] = useState(useGetData("users", "arr"));
-  const [token, setToken] = useState(useGetData("isLoggedIn", "bool"));
+  const database = useState(useGetData("users", "arr"));
+  const status = useGetData("isLoggedIn", "bool");
+  const [token, setToken] = useState(status);
 
   useEffect(() => {
     localStorage.setItem("isLoggedIn", JSON.stringify(token));
