@@ -4,9 +4,21 @@ import Login from "./components/Login/Login";
 import Homepage from "./components/Homepage/Homepage";
 import { useState } from "react";
 import Register from "./components/Register/Register";
+import { useEffect } from "react";
 
+function getDataBase() {
+  let data = localStorage.getItem("users");
+  if (data !== null) {
+    return JSON.parse(localStorage.getItem("users"));
+  } else {
+    return localStorage.setItem("users", JSON.stringify([]));
+  }
+}
 function App() {
   const [token, setToken] = useState(false);
+  useEffect(() => {
+    getDataBase();
+  });
 
   return (
     <div className="App">
