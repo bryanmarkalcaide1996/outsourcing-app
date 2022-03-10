@@ -17,12 +17,15 @@ export default function useValidate(data) {
   } = data;
 
   const foundData = db.find(
-    ({ usernameInput: username }) => usernameInput === username
+    ({ usernameInput: username, emailInput: email }) =>
+      usernameInput === username || emailInput === email
   );
 
   if (Object.keys(data).length > 6) {
     if (foundData) {
-      error.usernameInput = "* Username already taken";
+      if (foundData.usernameInput === usernameInput) {
+        error.usernameInput = "* Username already taken";
+      }
     }
 
     if (!usernameInput || usernameInput?.length < 8) {
@@ -33,6 +36,9 @@ export default function useValidate(data) {
       error.emailInput = "*  Field cannot be empty";
     } else if (!regEx.test(emailInput)) {
       error.emailInput = "Invalid email format!";
+    }
+    if (foundData?.emailInput === emailInput) {
+      error.emailInput = "*Email already taken";
     }
     if (!passwordInput || passwordInput.length <= 8) {
       error.passwordInput =

@@ -24,11 +24,9 @@ function Register({ database }) {
     setRegisterUser({ ...registerUser, [name]: value });
   }
 
-  const validator = useValidate(registerUser);
-
-  function handleSubmit(e) {
+  function useHandleSubmit(e) {
     e.preventDefault();
-    setErrorLogs(validator);
+    setErrorLogs(useValidate(registerUser));
     setCatalyst({ ...registerUser });
     setErrorStat(true);
   }
@@ -58,7 +56,7 @@ function Register({ database }) {
   return (
     <article>
       <div className="form-container">
-        <form className="registration-form" onSubmit={handleSubmit}>
+        <form className="registration-form" onSubmit={useHandleSubmit}>
           <div className="form-banner">
             <h2>Register</h2>
           </div>
