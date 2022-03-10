@@ -1,7 +1,7 @@
 export default function useGetData(database, dataType) {
   let data = localStorage.getItem(database);
   if (data !== null) {
-    return JSON.parse(data);
+    return JSON.parse(localStorage.getItem(database));
   } else {
     if (dataType === "string") {
       return localStorage.setItem(database, JSON.stringify(""));

@@ -31,6 +31,7 @@ function Login({ setToken }) {
           <label className="login-form-label">
             <h3> Username</h3>
             <input
+              autoComplete="off"
               type="text"
               id="usernameInput"
               className="login-inputs"
@@ -44,6 +45,7 @@ function Login({ setToken }) {
           <label className="login-form-label">
             <h3> Password</h3>
             <input
+              autoComplete="off"
               type="password"
               id="passwordInput"
               className="login-inputs"
