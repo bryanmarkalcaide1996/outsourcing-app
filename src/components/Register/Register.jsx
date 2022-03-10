@@ -5,7 +5,7 @@ import "./Register.css";
 function getDataBase() {
   let data = localStorage.getItem("users");
   if (data) {
-    return JSON.parse(data);
+    return JSON.parse(localStorage.getItem("users"));
   } else {
     return localStorage.setItem("users", JSON.stringify([]));
   }
