@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import Profile from "../Profile/Profile";
+
 
 function Homepage({ setToken }) {
   const [data, setData] = useState([]);
@@ -11,15 +13,20 @@ function Homepage({ setToken }) {
         setData((prevState) => {
           console.log(json);
           return [...prevState, json];
+
         })
+
       );
   }, []);
+  
 
   console.log(data);
 
   return (
     <div>
       <h1>HOMEPAGE</h1>
+      <Profile/>
+
       <button
         onClick={() => {
           setToken(false);
