@@ -13,8 +13,7 @@ function App() {
   );
 
   useEffect(() => {
-    token && localStorage.setItem("isLoggedIn", JSON.stringify(token));
-    !token && localStorage.setItem("isLoggedIn", JSON.stringify(token));
+    localStorage.setItem("isLoggedIn", JSON.stringify(token));
   });
 
   return (
@@ -28,9 +27,15 @@ function App() {
               </Link>
             </li>
             <li className="navigation-link-container">
-              <Link to="/register" className="links">
-                Register
-              </Link>
+              {token ? (
+                <Link to="/profile" className="links">
+                  Profile
+                </Link>
+              ) : (
+                <Link to="/register" className="links">
+                  Register
+                </Link>
+              )}
             </li>
             <li className="navigation-link-container">
               <Link to="/users" className="links">
@@ -49,6 +54,10 @@ function App() {
 
           <Route exact path="/">
             <Login setToken={setToken} />
+          </Route>
+
+          <Route path={"/register"}>
+            <Register database={database} />
           </Route>
 
           <Route path={"/register"}>
