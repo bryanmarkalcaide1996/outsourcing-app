@@ -1,0 +1,14 @@
+.jobseeker-container {
+  padding: 90px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.avatar-container {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+}
+.avatar {
+  width: 100%;
+}

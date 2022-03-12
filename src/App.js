@@ -1,10 +1,15 @@
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./components/Login/Login";
 import Homepage from "./components/Homepage/Homepage";
-import { useEffect, useState } from "react";
 import Register from "./components/Register/Register";
 import useGetData from "./components/utils/useGetData";
+import Navigation from "./components/Navigation/Navigation";
+import Profile from "./components/Profile/Profile";
+import Talents from "./components/Talents/Talents";
+import talents from "./components/utils/data";
+import Jobseeker from "./components/Jobseeker Profile/Jobseeker";
 
 function App() {
   const [database] = useState(useGetData("users", "arr"));
@@ -14,56 +19,37 @@ function App() {
 
   useEffect(() => {
     localStorage.setItem("isLoggedIn", JSON.stringify(token));
+    localStorage.setItem("jobseekers", JSON.stringify(talents));
   });
 
   return (
     <div className="App">
       <Router>
-        <nav className="navigation-bar">
-          <ul className="navigation-container">
-            <li className="navigation-link-container">
-              <Link to="/" className="links">
-                Home
-              </Link>
-            </li>
-            <li className="navigation-link-container">
-              {token ? (
-                <Link to="/profile" className="links">
-                  Profile
-                </Link>
-              ) : (
-                <Link to="/register" className="links">
-                  Register
-                </Link>
-              )}
-            </li>
-            <li className="navigation-link-container">
-              <Link to="/users" className="links">
-                Users
-              </Link>
-            </li>
-          </ul>
-        </nav>
-
-        <Switch>
+        <Navigation token={token} />
+        <Routes>
+          {/* Route */}
           {token && (
-            <Route path="/">
-              <Homepage setToken={setToken} />
-            </Route>
+            <Route path="/" element={<Homepage setToken={setToken} />} />
           )}
 
-          <Route exact path="/">
-            <Login setToken={setToken} />
-          </Route>
+          {/* Route */}
+          <Route exact path="/" element={<Login setToken={setToken} />} />
 
-          <Route path={"/register"}>
-            <Register database={database} />
-          </Route>
+          {/* Route */}
+          <Route
+            path={"/register"}
+            element={<Register database={database} />}
+          />
 
-          <Route path={"/register"}>
-            <Register database={database} />
-          </Route>
-        </Switch>
+          {/* Route */}
+          <Route path="/profile" element={<Profile />} />
+
+          {/* Route */}
+          {token && <Route path="/talents" element={<Talents />} />}
+
+          {/* Route */}
+          {token && <Route path="/jobseeker" element={<Jobseeker />} />}
+        </Routes>
       </Router>
     </div>
   );

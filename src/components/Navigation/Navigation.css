@@ -1,0 +1,27 @@
+.navigation-bar {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  height: 80px;
+  justify-content: flex-end;
+  padding: 0 90px;
+}
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation-link-container {
+  margin-left: 90px;
+}
+.links {
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .navigation-bar {
+    padding: 0 30px;
+  }
+  .navigation-container {
+    width: auto;
+  }
+}
