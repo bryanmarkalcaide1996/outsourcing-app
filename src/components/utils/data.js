@@ -1,5 +1,6 @@
 const talents = [
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -58,6 +59,7 @@ const talents = [
     nat: "US",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -116,6 +118,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -174,6 +177,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -232,6 +236,7 @@ const talents = [
     nat: "BR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -290,6 +295,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -348,6 +354,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -406,6 +413,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -464,6 +472,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -522,6 +531,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -580,6 +590,7 @@ const talents = [
     nat: "DK",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -638,6 +649,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -696,6 +708,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -754,6 +767,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -812,6 +826,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -870,6 +885,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -928,6 +944,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -986,6 +1003,7 @@ const talents = [
     nat: "US",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -1044,6 +1062,7 @@ const talents = [
     nat: "DE",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -1102,6 +1121,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -1160,6 +1180,7 @@ const talents = [
     nat: "CA",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -1218,6 +1239,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -1276,6 +1298,7 @@ const talents = [
     nat: "CA",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -1334,6 +1357,7 @@ const talents = [
     nat: "CA",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -1392,6 +1416,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -1450,6 +1475,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -1508,6 +1534,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -1566,6 +1593,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -1624,6 +1652,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -1682,6 +1711,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -1740,6 +1770,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -1798,6 +1829,7 @@ const talents = [
     nat: "US",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -1856,6 +1888,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -1914,6 +1947,7 @@ const talents = [
     nat: "US",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -1972,6 +2006,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -2030,6 +2065,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -2088,6 +2124,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -2146,6 +2183,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -2204,6 +2242,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -2262,6 +2301,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -2320,6 +2360,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -2378,6 +2419,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -2436,6 +2478,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -2494,6 +2537,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -2552,6 +2596,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -2610,6 +2655,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -2668,6 +2714,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -2726,6 +2773,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -2784,6 +2832,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -2842,6 +2891,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -2900,6 +2950,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -2958,6 +3009,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -3016,6 +3068,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -3074,6 +3127,7 @@ const talents = [
     nat: "BR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -3132,6 +3186,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -3190,6 +3245,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -3248,6 +3304,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -3306,6 +3363,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -3364,6 +3422,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -3422,6 +3481,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -3480,6 +3540,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -3538,6 +3599,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -3596,6 +3658,7 @@ const talents = [
     nat: "DE",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -3654,6 +3717,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -3712,6 +3776,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -3770,6 +3835,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -3828,6 +3894,7 @@ const talents = [
     nat: "CA",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -3886,6 +3953,7 @@ const talents = [
     nat: "DK",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -3944,6 +4012,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -4002,6 +4071,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -4060,6 +4130,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -4118,6 +4189,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -4176,6 +4248,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -4234,6 +4307,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -4292,6 +4366,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -4350,6 +4425,7 @@ const talents = [
     nat: "DK",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -4408,6 +4484,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -4466,6 +4543,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -4524,6 +4602,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -4582,6 +4661,7 @@ const talents = [
     nat: "CA",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -4640,6 +4720,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -4698,6 +4779,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -4756,6 +4838,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -4814,6 +4897,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -4872,6 +4956,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -4930,6 +5015,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -4988,6 +5074,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -5046,6 +5133,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -5104,6 +5192,7 @@ const talents = [
     nat: "DK",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -5162,6 +5251,7 @@ const talents = [
     nat: "US",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -5220,6 +5310,7 @@ const talents = [
     nat: "DK",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -5278,6 +5369,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -5336,6 +5428,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -5394,6 +5487,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -5452,6 +5546,7 @@ const talents = [
     nat: "DK",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -5510,6 +5605,7 @@ const talents = [
     nat: "DK",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -5568,6 +5664,7 @@ const talents = [
     nat: "US",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -5626,6 +5723,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -5684,6 +5782,7 @@ const talents = [
     nat: "DK",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "female",
     name: {
@@ -5742,6 +5841,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Virtual Assistant",
     gender: "male",
     name: {
@@ -5801,6 +5901,7 @@ const talents = [
   },
 
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -5859,6 +5960,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -5917,6 +6019,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -5975,6 +6078,7 @@ const talents = [
     nat: "DE",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -6033,6 +6137,7 @@ const talents = [
     nat: "DK",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -6091,6 +6196,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -6149,6 +6255,7 @@ const talents = [
     nat: "US",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -6207,6 +6314,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -6265,6 +6373,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -6323,6 +6432,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -6381,6 +6491,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -6439,6 +6550,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -6497,6 +6609,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -6555,6 +6668,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -6613,6 +6727,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -6671,6 +6786,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -6729,6 +6845,7 @@ const talents = [
     nat: "BR",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -6787,6 +6904,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -6845,6 +6963,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -6903,6 +7022,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -6961,6 +7081,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -7019,6 +7140,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -7077,6 +7199,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -7135,6 +7258,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -7193,6 +7317,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -7251,6 +7376,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -7309,6 +7435,7 @@ const talents = [
     nat: "BR",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -7367,6 +7494,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -7425,6 +7553,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -7483,6 +7612,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -7541,6 +7671,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -7599,6 +7730,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -7657,6 +7789,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -7715,6 +7848,7 @@ const talents = [
     nat: "CA",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -7773,6 +7907,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -7831,6 +7966,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -7889,6 +8025,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -7947,6 +8084,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -8005,6 +8143,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -8063,6 +8202,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -8121,6 +8261,7 @@ const talents = [
     nat: "US",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -8179,6 +8320,7 @@ const talents = [
     nat: "DK",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -8237,6 +8379,7 @@ const talents = [
     nat: "CA",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -8295,6 +8438,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -8353,6 +8497,7 @@ const talents = [
     nat: "CA",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -8411,6 +8556,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -8469,6 +8615,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -8527,6 +8674,7 @@ const talents = [
     nat: "BR",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -8585,6 +8733,7 @@ const talents = [
     nat: "US",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -8643,6 +8792,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -8701,6 +8851,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -8759,6 +8910,7 @@ const talents = [
     nat: "DK",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -8817,6 +8969,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -8875,6 +9028,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -8933,6 +9087,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -8991,6 +9146,7 @@ const talents = [
     nat: "DE",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -9049,6 +9205,7 @@ const talents = [
     nat: "DK",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -9107,6 +9264,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -9165,6 +9323,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -9223,6 +9382,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -9281,6 +9441,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -9339,6 +9500,7 @@ const talents = [
     nat: "BR",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -9397,6 +9559,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -9455,6 +9618,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -9513,6 +9677,7 @@ const talents = [
     nat: "DK",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -9571,6 +9736,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -9629,6 +9795,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -9687,6 +9854,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -9745,6 +9913,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -9803,6 +9972,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -9861,6 +10031,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -9919,6 +10090,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -9977,6 +10149,7 @@ const talents = [
     nat: "DE",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -10035,6 +10208,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -10093,6 +10267,7 @@ const talents = [
     nat: "CA",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -10151,6 +10326,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -10209,6 +10385,7 @@ const talents = [
     nat: "BR",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -10267,6 +10444,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -10325,6 +10503,7 @@ const talents = [
     nat: "DK",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -10383,6 +10562,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -10441,6 +10621,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -10499,6 +10680,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -10557,6 +10739,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -10615,6 +10798,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -10673,6 +10857,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -10731,6 +10916,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -10789,6 +10975,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -10847,6 +11034,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -10905,6 +11093,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -10963,6 +11152,7 @@ const talents = [
     nat: "US",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -11021,6 +11211,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -11079,6 +11270,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -11137,6 +11329,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -11195,6 +11388,7 @@ const talents = [
     nat: "CA",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -11253,6 +11447,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -11311,6 +11506,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -11369,6 +11565,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -11427,6 +11624,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -11485,6 +11683,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "male",
     name: {
@@ -11543,6 +11742,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Full-stack Developer",
     gender: "female",
     name: {
@@ -11602,6 +11802,7 @@ const talents = [
   },
 
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -11660,6 +11861,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -11718,6 +11920,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -11776,6 +11979,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -11834,6 +12038,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -11892,6 +12097,7 @@ const talents = [
     nat: "US",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -11950,6 +12156,7 @@ const talents = [
     nat: "DK",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -12008,6 +12215,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -12066,6 +12274,7 @@ const talents = [
     nat: "BR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -12124,6 +12333,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -12182,6 +12392,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -12240,6 +12451,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -12298,6 +12510,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -12356,6 +12569,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -12414,6 +12628,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -12472,6 +12687,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -12530,6 +12746,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -12588,6 +12805,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -12646,6 +12864,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -12704,6 +12923,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -12762,6 +12982,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -12820,6 +13041,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -12878,6 +13100,7 @@ const talents = [
     nat: "US",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -12936,6 +13159,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -12994,6 +13218,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -13052,6 +13277,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -13110,6 +13336,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -13168,6 +13395,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -13226,6 +13454,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -13284,6 +13513,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -13342,6 +13572,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -13400,6 +13631,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -13458,6 +13690,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -13516,6 +13749,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -13574,6 +13808,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -13632,6 +13867,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -13690,6 +13926,7 @@ const talents = [
     nat: "DE",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -13748,6 +13985,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -13806,6 +14044,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -13864,6 +14103,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -13922,6 +14162,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -13980,6 +14221,7 @@ const talents = [
     nat: "US",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -14038,6 +14280,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -14096,6 +14339,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -14154,6 +14398,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -14212,6 +14457,7 @@ const talents = [
     nat: "CA",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -14270,6 +14516,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -14328,6 +14575,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -14386,6 +14634,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -14444,6 +14693,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -14502,6 +14752,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -14560,6 +14811,7 @@ const talents = [
     nat: "US",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -14618,6 +14870,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -14676,6 +14929,7 @@ const talents = [
     nat: "CA",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -14734,6 +14988,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -14792,6 +15047,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -14850,6 +15106,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -14908,6 +15165,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -14966,6 +15224,7 @@ const talents = [
     nat: "BR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -15024,6 +15283,7 @@ const talents = [
     nat: "DE",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -15082,6 +15342,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -15140,6 +15401,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -15198,6 +15460,7 @@ const talents = [
     nat: "CA",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -15256,6 +15519,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -15314,6 +15578,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -15372,6 +15637,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -15430,6 +15696,7 @@ const talents = [
     nat: "CA",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -15488,6 +15755,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -15546,6 +15814,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -15604,6 +15873,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -15662,6 +15932,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -15720,6 +15991,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -15778,6 +16050,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -15836,6 +16109,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -15894,6 +16168,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -15952,6 +16227,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -16010,6 +16286,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -16068,6 +16345,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -16126,6 +16404,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -16184,6 +16463,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -16242,6 +16522,7 @@ const talents = [
     nat: "DK",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -16300,6 +16581,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -16358,6 +16640,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -16416,6 +16699,7 @@ const talents = [
     nat: "DK",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -16474,6 +16758,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -16532,6 +16817,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -16590,6 +16876,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -16648,6 +16935,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -16706,6 +16994,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -16764,6 +17053,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -16822,6 +17112,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -16880,6 +17171,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -16938,6 +17230,7 @@ const talents = [
     nat: "CA",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -16996,6 +17289,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -17054,6 +17348,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -17112,6 +17407,7 @@ const talents = [
     nat: "US",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "female",
     name: {
@@ -17170,6 +17466,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -17228,6 +17525,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -17286,6 +17584,7 @@ const talents = [
     nat: "BR",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -17344,6 +17643,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Front-end Developer",
     gender: "male",
     name: {
@@ -17403,6 +17703,7 @@ const talents = [
   },
 
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -17461,6 +17762,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -17519,6 +17821,7 @@ const talents = [
     nat: "BR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -17577,6 +17880,7 @@ const talents = [
     nat: "US",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -17635,6 +17939,7 @@ const talents = [
     nat: "CA",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -17693,6 +17998,7 @@ const talents = [
     nat: "DE",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -17751,6 +18057,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -17809,6 +18116,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -17867,6 +18175,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -17925,6 +18234,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -17983,6 +18293,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -18041,6 +18352,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -18099,6 +18411,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -18157,6 +18470,7 @@ const talents = [
     nat: "US",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -18215,6 +18529,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -18273,6 +18588,7 @@ const talents = [
     nat: "US",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -18331,6 +18647,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -18389,6 +18706,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -18447,6 +18765,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -18505,6 +18824,7 @@ const talents = [
     nat: "DK",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -18563,6 +18883,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -18621,6 +18942,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -18679,6 +19001,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -18737,6 +19060,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -18795,6 +19119,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -18853,6 +19178,7 @@ const talents = [
     nat: "US",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -18911,6 +19237,7 @@ const talents = [
     nat: "BR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -18969,6 +19296,7 @@ const talents = [
     nat: "DE",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -19027,6 +19355,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -19085,6 +19414,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -19143,6 +19473,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -19201,6 +19532,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -19259,6 +19591,7 @@ const talents = [
     nat: "BR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -19317,6 +19650,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -19375,6 +19709,7 @@ const talents = [
     nat: "BR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -19433,6 +19768,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -19491,6 +19827,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -19549,6 +19886,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -19607,6 +19945,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -19665,6 +20004,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -19723,6 +20063,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -19781,6 +20122,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -19839,6 +20181,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -19897,6 +20240,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -19955,6 +20299,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -20013,6 +20358,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -20071,6 +20417,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -20129,6 +20476,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -20187,6 +20535,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -20245,6 +20594,7 @@ const talents = [
     nat: "DK",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -20303,6 +20653,7 @@ const talents = [
     nat: "BR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -20361,6 +20712,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -20419,6 +20771,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -20477,6 +20830,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -20535,6 +20889,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -20593,6 +20948,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -20651,6 +21007,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -20709,6 +21066,7 @@ const talents = [
     nat: "DE",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -20767,6 +21125,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -20825,6 +21184,7 @@ const talents = [
     nat: "NZ",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -20883,6 +21243,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -20941,6 +21302,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -20999,6 +21361,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -21057,6 +21420,7 @@ const talents = [
     nat: "IE",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -21115,6 +21479,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -21173,6 +21538,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -21231,6 +21597,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -21289,6 +21656,7 @@ const talents = [
     nat: "DK",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -21347,6 +21715,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -21405,6 +21774,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -21463,6 +21833,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -21521,6 +21892,7 @@ const talents = [
     nat: "DE",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -21579,6 +21951,7 @@ const talents = [
     nat: "DE",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -21637,6 +22010,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -21695,6 +22069,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -21753,6 +22128,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -21811,6 +22187,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -21869,6 +22246,7 @@ const talents = [
     nat: "BR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -21927,6 +22305,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -21985,6 +22364,7 @@ const talents = [
     nat: "NO",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -22043,6 +22423,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -22101,6 +22482,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -22159,6 +22541,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -22217,6 +22600,7 @@ const talents = [
     nat: "FI",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -22275,6 +22659,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -22333,6 +22718,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -22391,6 +22777,7 @@ const talents = [
     nat: "DE",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -22449,6 +22836,7 @@ const talents = [
     nat: "AU",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -22507,6 +22895,7 @@ const talents = [
     nat: "ES",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -22565,6 +22954,7 @@ const talents = [
     nat: "FR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -22623,6 +23013,7 @@ const talents = [
     nat: "NL",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -22681,6 +23072,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -22739,6 +23131,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -22797,6 +23190,7 @@ const talents = [
     nat: "GB",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -22855,6 +23249,7 @@ const talents = [
     nat: "CA",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "female",
     name: {
@@ -22913,6 +23308,7 @@ const talents = [
     nat: "CH",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -22971,6 +23367,7 @@ const talents = [
     nat: "BR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -23029,6 +23426,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -23087,6 +23485,7 @@ const talents = [
     nat: "TR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {
@@ -23145,6 +23544,7 @@ const talents = [
     nat: "IR",
   },
   {
+    status: "Verified",
     field: "Back-end Developer",
     gender: "male",
     name: {

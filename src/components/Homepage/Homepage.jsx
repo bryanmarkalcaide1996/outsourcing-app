@@ -1,10 +1,6 @@
-import Navigation from "../Navigation/Navigation";
 import "./Homepage.css";
-import { useState } from "react";
 
 function Homepage({ setToken }) {
-  const [data, setData] = useState([]);
-
   return (
     <div className="homepage">
       <h1>HOMEPAGE</h1>
@@ -16,7 +12,6 @@ function Homepage({ setToken }) {
       >
         LOGOUT
       </button>
-      <Navigation id={"footer"} />
     </div>
   );
 }

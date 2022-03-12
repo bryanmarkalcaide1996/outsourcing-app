@@ -1,14 +1,82 @@
 .jobseeker-container {
-  padding: 90px;
+  padding: 5vw;
   align-items: center;
   display: flex;
   flex-direction: column;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
+
+.profile-container {
+  width: 50vw;
+  position: relative;
+}
+.color-theme {
+  align-items: flex-end;
+  background: black;
+  color: white;
+  display: flex;
+  font-family: monospace;
+  height: 210px;
+  position: absolute;
+  width: 100%;
+}
+.color-theme h1 {
+  font-size: 2.2rem;
+}
+.color-theme h2 {
+  font-size: 1.3rem;
+  font-weight: lighter;
+  margin: 10px 0;
+}
+.name-field {
+  padding: 0 0 15px 210px;
+}
+.card {
+  margin-top: 90px;
+  position: absolute;
+  width: 100%;
+}
+.basic-info {
+  display: flex;
+  color: white;
+  padding: 25px 0 0 25px;
+}
+.contact-info {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
 .avatar-container {
   border-radius: 50%;
+  border: 5px solid white;
   overflow: hidden;
-  width: 200px;
 }
 .avatar {
   width: 100%;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+}
+.badge h3 {
+  margin-left: 10px;
+}
+.profile-info {
+  display: flex;
+}
+.left-box {
+  flex: 1;
+  width: 200px;
+  height: 800px;
+  padding: 10px;
+}
+.right-box {
+  flex: 3;
+  height: 800px;
+  padding: 10px;
 }
