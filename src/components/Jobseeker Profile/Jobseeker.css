@@ -11,6 +11,7 @@
 .profile-container {
   width: 800px;
   position: relative;
+  box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.4);
 }
 .color-theme {
   align-items: flex-end;
@@ -33,12 +34,16 @@
 .name-field {
   padding: 0 0 15px 210px;
 }
+.badge {
+  display: flex;
+  align-items: center;
+}
+.badge h3 {
+  margin-left: 10px;
+}
 .card {
   margin-top: 90px;
   width: 100%;
-}
-.name-field-collapsed {
-  display: none;
 }
 .basic-info {
   color: white;
@@ -46,16 +51,25 @@
   padding: 25px 0 0 25px;
   position: absolute;
 }
+.name-field-collapsed {
+  display: none;
+}
 .contact-info {
   color: black;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   margin-top: 10px;
+}
+.contact-info section ul li {
+  margin: 10px 0;
+}
+.description h4 {
+  margin: 10px 0;
 }
 .directories {
   display: flex;
   align-items: center;
+  margin: 10px 0;
 }
 .directory-image {
   margin: 5px 15px 0 0;
@@ -70,29 +84,21 @@
   width: 100%;
 }
 
-.badge {
-  display: flex;
-  align-items: center;
-}
-.badge h3 {
-  margin-left: 10px;
-}
 .profile-info {
   display: flex;
   padding-top: 120px;
 }
 .left-box {
   flex: 1;
-  height: 800px;
   margin-top: 60px;
   padding: 10px;
   width: 200px;
 }
 .right-box {
   flex: 3;
-  height: 800px;
   padding: 10px;
 }
+
 @media (max-width: 800px) {
   .profile-container {
     width: 95vw;

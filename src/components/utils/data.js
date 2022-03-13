@@ -6803,7 +6803,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -6863,7 +6871,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -6923,7 +6939,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -6983,7 +7007,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -7043,7 +7075,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -7103,7 +7143,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -7163,7 +7211,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -7223,7 +7279,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -7283,7 +7347,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -7343,7 +7415,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -7403,7 +7483,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Madame",
@@ -7463,7 +7551,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -7523,7 +7619,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -7583,7 +7687,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -7643,7 +7755,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -7703,7 +7823,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -7763,7 +7891,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -7823,7 +7959,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -7883,7 +8027,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -7943,7 +8095,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -8003,7 +8163,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -8063,7 +8231,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -8123,7 +8299,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -8183,7 +8367,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -8243,7 +8435,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -8303,7 +8503,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -8363,7 +8571,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -8423,7 +8639,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -8483,7 +8707,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Mademoiselle",
@@ -8543,7 +8775,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -8603,7 +8843,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -8663,7 +8911,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -8723,7 +8979,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -8783,7 +9047,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Mademoiselle",
@@ -8843,7 +9115,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -8903,7 +9183,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -8963,7 +9251,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -9023,7 +9319,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -9083,7 +9387,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Monsieur",
@@ -9143,7 +9455,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -9203,7 +9523,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -9263,7 +9591,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -9323,7 +9659,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -9383,7 +9727,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -9443,7 +9795,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -9503,7 +9863,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -9563,7 +9931,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -9623,7 +9999,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -9683,7 +10067,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -9743,7 +10135,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -9803,7 +10203,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -9863,7 +10271,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -9923,7 +10339,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -9983,7 +10407,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -10043,7 +10475,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -10103,7 +10543,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -10163,7 +10611,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -10223,7 +10679,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -10283,7 +10747,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -10343,7 +10815,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -10403,7 +10883,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -10463,7 +10951,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -10523,7 +11019,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -10583,7 +11087,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -10643,7 +11155,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Madame",
@@ -10703,7 +11223,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -10763,7 +11291,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -10823,7 +11359,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -10883,7 +11427,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -10943,7 +11495,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -11003,7 +11563,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -11063,7 +11631,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -11123,7 +11699,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -11183,7 +11767,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -11243,7 +11835,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -11303,7 +11903,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -11363,7 +11971,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -11423,7 +12039,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -11483,7 +12107,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -11543,7 +12175,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -11603,7 +12243,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -11663,7 +12311,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -11723,7 +12379,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -11783,7 +12447,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -11843,7 +12515,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -11903,7 +12583,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -11963,7 +12651,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -12023,7 +12719,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -12083,7 +12787,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -12143,7 +12855,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -12203,7 +12923,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -12263,7 +12991,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -12323,7 +13059,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -12383,7 +13127,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -12443,7 +13195,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -12503,7 +13263,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -12563,7 +13331,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -12623,7 +13399,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -12683,7 +13467,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -12743,7 +13535,15 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "JavaScript",
+      react: "React JS",
+      express: "Express JS",
+      mongo: "Mongo DB",
+      node: "Node JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -12804,7 +13604,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -12864,7 +13671,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -12924,7 +13738,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Madame",
@@ -12984,7 +13805,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -13044,7 +13872,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -13104,7 +13939,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -13164,7 +14006,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -13224,7 +14073,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -13284,7 +14140,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -13344,7 +14207,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -13404,7 +14274,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -13464,7 +14341,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -13524,7 +14408,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -13584,7 +14475,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -13644,7 +14542,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -13704,7 +14609,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -13764,7 +14676,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -13824,7 +14743,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -13884,7 +14810,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -13944,7 +14877,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -14004,7 +14944,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -14064,7 +15011,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -14124,7 +15078,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -14184,7 +15145,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -14244,7 +15212,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Mademoiselle",
@@ -14304,7 +15279,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -14364,7 +15346,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -14424,7 +15413,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -14484,7 +15480,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -14544,7 +15547,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -14604,7 +15614,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Mademoiselle",
@@ -14664,7 +15681,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -14724,7 +15748,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -14784,7 +15815,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -14844,7 +15882,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -14904,7 +15949,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -14964,7 +16016,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -15024,7 +16083,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -15084,7 +16150,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -15144,7 +16217,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Mademoiselle",
@@ -15204,7 +16284,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -15264,7 +16351,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -15324,7 +16418,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -15384,7 +16485,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -15444,7 +16552,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -15504,7 +16619,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -15564,7 +16686,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -15624,7 +16753,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -15684,7 +16820,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -15744,7 +16887,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Monsieur",
@@ -15804,7 +16954,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -15864,7 +17021,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -15924,7 +17088,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -15984,7 +17155,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Monsieur",
@@ -16044,7 +17222,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -16104,7 +17289,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -16164,7 +17356,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -16224,7 +17423,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -16284,7 +17490,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -16344,7 +17557,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -16404,7 +17624,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -16464,7 +17691,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -16524,7 +17758,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -16584,7 +17825,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -16644,7 +17892,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -16704,7 +17959,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -16764,7 +18026,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -16824,7 +18093,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -16884,7 +18160,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -16944,7 +18227,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Monsieur",
@@ -17004,7 +18294,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -17064,7 +18361,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -17124,7 +18428,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -17184,7 +18495,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -17244,7 +18562,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -17304,7 +18629,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -17364,7 +18696,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -17424,7 +18763,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -17484,7 +18830,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -17544,7 +18897,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -17604,7 +18964,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -17664,7 +19031,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -17724,7 +19098,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -17784,7 +19165,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -17844,7 +19232,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -17904,7 +19299,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -17964,7 +19366,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -18024,7 +19433,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -18084,7 +19500,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -18144,7 +19567,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -18204,7 +19634,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -18264,7 +19701,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -18324,7 +19768,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -18384,7 +19835,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -18444,7 +19902,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -18504,7 +19969,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -18564,7 +20036,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -18624,7 +20103,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -18684,7 +20170,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -18744,7 +20237,14 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
-    services: "",
+    services: {
+      html: "HTML",
+      css: "CSS",
+      js: "Javascript",
+      tail: "Tail wind CSS",
+      react: "React JS",
+      vue: "Vue JS",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -18805,7 +20305,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -18865,7 +20372,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -18925,7 +20439,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -18985,7 +20506,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -19045,7 +20573,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -19105,7 +20640,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -19165,7 +20707,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -19225,7 +20774,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -19285,7 +20841,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -19345,7 +20908,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -19405,7 +20975,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -19465,7 +21042,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -19525,7 +21109,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -19585,7 +21176,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -19645,7 +21243,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -19705,7 +21310,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -19765,7 +21377,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -19825,7 +21444,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Monsieur",
@@ -19885,7 +21511,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -19945,7 +21578,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -20005,7 +21645,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -20065,7 +21712,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -20125,7 +21779,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -20185,7 +21846,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -20245,7 +21913,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -20305,7 +21980,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -20365,7 +22047,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -20425,7 +22114,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -20485,7 +22181,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -20545,7 +22248,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -20605,7 +22315,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -20665,7 +22382,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -20725,7 +22449,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -20785,7 +22516,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -20845,7 +22583,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -20905,7 +22650,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -20965,7 +22717,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -21025,7 +22784,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -21085,7 +22851,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -21145,7 +22918,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -21205,7 +22985,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -21265,7 +23052,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -21325,7 +23119,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -21385,7 +23186,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -21445,7 +23253,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -21505,7 +23320,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -21565,7 +23387,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -21625,7 +23454,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -21685,7 +23521,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -21745,7 +23588,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -21805,7 +23655,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -21865,7 +23722,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -21925,7 +23789,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -21985,7 +23856,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -22045,7 +23923,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -22105,7 +23990,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -22165,7 +24057,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -22225,7 +24124,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -22285,7 +24191,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -22345,7 +24258,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -22405,7 +24325,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Monsieur",
@@ -22465,7 +24392,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Monsieur",
@@ -22525,7 +24459,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -22585,7 +24526,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -22645,7 +24593,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Monsieur",
@@ -22705,7 +24660,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -22765,7 +24727,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -22825,7 +24794,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -22885,7 +24861,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -22945,7 +24928,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -23005,7 +24995,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -23065,7 +25062,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -23125,7 +25129,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -23185,7 +25196,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -23245,7 +25263,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -23305,7 +25330,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -23365,7 +25397,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -23425,7 +25464,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -23485,7 +25531,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -23545,7 +25598,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -23605,7 +25665,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -23665,7 +25732,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -23725,7 +25799,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -23785,7 +25866,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -23845,7 +25933,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -23905,7 +26000,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -23965,7 +26067,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -24025,7 +26134,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -24085,7 +26201,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -24145,7 +26268,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -24205,7 +26335,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -24265,7 +26402,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -24325,7 +26469,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -24385,7 +26536,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -24445,7 +26603,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "female",
     name: {
       title: "Madame",
@@ -24505,7 +26670,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -24565,7 +26737,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -24625,7 +26804,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -24685,7 +26871,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -24745,7 +26938,14 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
-    services: "",
+    services: {
+      node: "Node JS",
+      lara: "Laravel",
+      django: "Django",
+      phyton: "Phyton",
+      php: "PHP",
+      mongo: "Mongo DB",
+    },
     gender: "male",
     name: {
       title: "Mr",

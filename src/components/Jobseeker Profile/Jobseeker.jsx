@@ -84,12 +84,9 @@ function Jobseeker({ person, setFlag }) {
                     {cell}
                   </figure>
 
-                  <section>
+                  <section className="description">
                     <h4>Rate: 12$ / hr</h4>
                     <h4>Availability: 40hrs / week</h4>
-                  </section>
-
-                  <section>
                     <h4>Services Offered</h4>
                     {Object.keys(services).length > 0 && (
                       <ul>
