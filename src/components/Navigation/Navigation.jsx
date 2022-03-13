@@ -22,13 +22,9 @@ function Navigation({ token, id }) {
         </li>
 
         <li className="navigation-link-container">
-          {token ? (
+          {token && (
             <Link to="/profile" className="links">
               Profile
-            </Link>
-          ) : (
-            <Link to="/register" className="links">
-              Register
             </Link>
           )}
         </li>

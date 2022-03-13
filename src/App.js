@@ -28,7 +28,6 @@ function App() {
         <Navigation token={token} />
         <Routes>
           {/* Route */}
-
           <Route path="/" element={<Homepage setToken={setToken} />} />
 
           {/* Route */}

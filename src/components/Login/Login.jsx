@@ -29,8 +29,8 @@ function Login({ setToken }) {
     <div className="login-section" onSubmit={useHandleSubmit}>
       <div className="login-form-container">
         <form className="login-form">
-        <h1> Log In</h1>
-        <h6> Have an Account?</h6>
+          <h1> Log In</h1>
+          <h6> Have an Account?</h6>
           <label className="login-form-label">
             <input
               autoComplete="off"
@@ -63,12 +63,11 @@ function Login({ setToken }) {
             <button className="login-inputs">Login</button>
           </label>
           <div className="lower-part">
-          
-          <input type="checkbox" name="remember" id="remember"/>
-          <label for="remember">Remember me?</label>
-          <a href="/src/components/Register/Register.jsx">Register</a>
+            <input type="checkbox" name="remember" id="remember" />
+            <label for="remember">Remember me?</label>
+            <a href="/register">Register</a>
           </div>
-          </form>
+        </form>
       </div>
     </div>
   );
