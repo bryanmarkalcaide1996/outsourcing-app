@@ -2,6 +2,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -61,6 +70,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -120,6 +138,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -179,6 +206,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -238,6 +274,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -297,6 +342,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -356,6 +410,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -415,6 +478,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -474,6 +546,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -533,6 +614,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -592,6 +682,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -651,6 +750,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Monsieur",
@@ -710,6 +818,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -769,6 +886,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -828,6 +954,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -887,6 +1022,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -946,6 +1090,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -1005,6 +1158,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -1064,6 +1226,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -1123,6 +1294,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -1182,6 +1362,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -1241,6 +1430,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -1300,6 +1498,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -1359,6 +1566,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -1418,6 +1634,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -1477,6 +1702,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -1536,6 +1770,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -1595,6 +1838,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -1654,6 +1906,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -1713,6 +1974,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -1772,6 +2042,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -1831,6 +2110,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -1890,6 +2178,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -1949,6 +2246,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -2008,6 +2314,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -2067,6 +2382,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -2126,6 +2450,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -2185,6 +2518,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -2244,6 +2586,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Mademoiselle",
@@ -2303,6 +2654,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -2362,6 +2722,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -2421,6 +2790,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -2480,6 +2858,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -2539,6 +2926,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -2598,6 +2994,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -2657,6 +3062,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -2716,6 +3130,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -2775,6 +3198,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -2834,6 +3266,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -2893,6 +3334,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Mademoiselle",
@@ -2952,6 +3402,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -3011,6 +3470,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -3070,6 +3538,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -3129,6 +3606,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -3188,6 +3674,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -3247,6 +3742,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -3306,6 +3810,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -3365,6 +3878,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -3424,6 +3946,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -3483,6 +4014,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Mademoiselle",
@@ -3542,6 +4082,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -3601,6 +4150,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -3660,6 +4218,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -3719,6 +4286,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -3778,6 +4354,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -3837,6 +4422,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -3896,6 +4490,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -3955,6 +4558,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -4014,6 +4626,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -4073,6 +4694,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -4132,6 +4762,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -4191,6 +4830,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -4250,6 +4898,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -4309,6 +4966,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -4368,6 +5034,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -4427,6 +5102,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -4486,6 +5170,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -4545,6 +5238,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Monsieur",
@@ -4604,6 +5306,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -4663,6 +5374,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -4722,6 +5442,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -4781,6 +5510,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -4840,6 +5578,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -4899,6 +5646,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -4958,6 +5714,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -5017,6 +5782,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -5076,6 +5850,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -5135,6 +5918,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -5194,6 +5986,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -5253,6 +6054,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -5312,6 +6122,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -5371,6 +6190,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -5430,6 +6258,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Mrs",
@@ -5489,6 +6326,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -5548,6 +6394,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -5607,6 +6462,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Miss",
@@ -5666,6 +6530,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -5725,6 +6598,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -5784,6 +6666,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "female",
     name: {
       title: "Ms",
@@ -5843,6 +6734,15 @@ const talents = [
   {
     status: "Verified",
     field: "Virtual Assistant",
+    services: {
+      emaimgmt: "Email Management",
+      fba: "Amazon FBA",
+      appt: "Appointment Setting",
+      ecom: "E-commerce management",
+      smd: "Social Media Management",
+      goog: "Google Analytics Interpreter",
+      cop: "Copy Writing",
+    },
     gender: "male",
     name: {
       title: "Mr",
@@ -5903,6 +6803,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -5962,6 +6863,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -6021,6 +6923,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -6080,6 +6983,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -6139,6 +7043,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -6198,6 +7103,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -6257,6 +7163,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -6316,6 +7223,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -6375,6 +7283,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -6434,6 +7343,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -6493,6 +7403,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Madame",
@@ -6552,6 +7463,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -6611,6 +7523,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -6670,6 +7583,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -6729,6 +7643,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -6788,6 +7703,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -6847,6 +7763,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -6906,6 +7823,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -6965,6 +7883,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -7024,6 +7943,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -7083,6 +8003,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -7142,6 +8063,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -7201,6 +8123,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -7260,6 +8183,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -7319,6 +8243,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -7378,6 +8303,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -7437,6 +8363,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -7496,6 +8423,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -7555,6 +8483,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mademoiselle",
@@ -7614,6 +8543,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -7673,6 +8603,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -7732,6 +8663,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -7791,6 +8723,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -7850,6 +8783,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mademoiselle",
@@ -7909,6 +8843,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -7968,6 +8903,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -8027,6 +8963,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -8086,6 +9023,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -8145,6 +9083,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Monsieur",
@@ -8204,6 +9143,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -8263,6 +9203,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -8322,6 +9263,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -8381,6 +9323,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -8440,6 +9383,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -8499,6 +9443,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -8558,6 +9503,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -8617,6 +9563,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -8676,6 +9623,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -8735,6 +9683,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -8794,6 +9743,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -8853,6 +9803,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -8912,6 +9863,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -8971,6 +9923,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -9030,6 +9983,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -9089,6 +10043,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -9148,6 +10103,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -9207,6 +10163,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -9266,6 +10223,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -9325,6 +10283,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -9384,6 +10343,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -9443,6 +10403,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -9502,6 +10463,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -9561,6 +10523,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -9620,6 +10583,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -9679,6 +10643,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Madame",
@@ -9738,6 +10703,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -9797,6 +10763,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -9856,6 +10823,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -9915,6 +10883,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -9974,6 +10943,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -10033,6 +11003,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -10092,6 +11063,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -10151,6 +11123,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -10210,6 +11183,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -10269,6 +11243,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -10328,6 +11303,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -10387,6 +11363,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -10446,6 +11423,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -10505,6 +11483,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -10564,6 +11543,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -10623,6 +11603,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -10682,6 +11663,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -10741,6 +11723,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -10800,6 +11783,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -10859,6 +11843,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -10918,6 +11903,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -10977,6 +11963,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -11036,6 +12023,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -11095,6 +12083,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -11154,6 +12143,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -11213,6 +12203,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -11272,6 +12263,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -11331,6 +12323,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -11390,6 +12383,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -11449,6 +12443,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -11508,6 +12503,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -11567,6 +12563,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -11626,6 +12623,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -11685,6 +12683,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -11744,6 +12743,7 @@ const talents = [
   {
     status: "Verified",
     field: "Full-stack Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -11804,6 +12804,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -11863,6 +12864,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -11922,6 +12924,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Madame",
@@ -11981,6 +12984,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -12040,6 +13044,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -12099,6 +13104,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -12158,6 +13164,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -12217,6 +13224,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -12276,6 +13284,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -12335,6 +13344,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -12394,6 +13404,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -12453,6 +13464,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -12512,6 +13524,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -12571,6 +13584,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -12630,6 +13644,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -12689,6 +13704,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -12748,6 +13764,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -12807,6 +13824,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -12866,6 +13884,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -12925,6 +13944,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -12984,6 +14004,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -13043,6 +14064,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -13102,6 +14124,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -13161,6 +14184,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -13220,6 +14244,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mademoiselle",
@@ -13279,6 +14304,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -13338,6 +14364,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -13397,6 +14424,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -13456,6 +14484,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -13515,6 +14544,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -13574,6 +14604,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mademoiselle",
@@ -13633,6 +14664,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -13692,6 +14724,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -13751,6 +14784,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -13810,6 +14844,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -13869,6 +14904,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -13928,6 +14964,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -13987,6 +15024,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -14046,6 +15084,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -14105,6 +15144,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mademoiselle",
@@ -14164,6 +15204,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -14223,6 +15264,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -14282,6 +15324,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -14341,6 +15384,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -14400,6 +15444,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -14459,6 +15504,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -14518,6 +15564,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -14577,6 +15624,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -14636,6 +15684,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -14695,6 +15744,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Monsieur",
@@ -14754,6 +15804,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -14813,6 +15864,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -14872,6 +15924,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -14931,6 +15984,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Monsieur",
@@ -14990,6 +16044,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -15049,6 +16104,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -15108,6 +16164,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -15167,6 +16224,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -15226,6 +16284,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -15285,6 +16344,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -15344,6 +16404,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -15403,6 +16464,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -15462,6 +16524,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -15521,6 +16584,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -15580,6 +16644,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -15639,6 +16704,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -15698,6 +16764,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -15757,6 +16824,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -15816,6 +16884,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -15875,6 +16944,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Monsieur",
@@ -15934,6 +17004,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -15993,6 +17064,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -16052,6 +17124,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -16111,6 +17184,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -16170,6 +17244,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -16229,6 +17304,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -16288,6 +17364,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -16347,6 +17424,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -16406,6 +17484,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -16465,6 +17544,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -16524,6 +17604,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -16583,6 +17664,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -16642,6 +17724,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -16701,6 +17784,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -16760,6 +17844,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -16819,6 +17904,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -16878,6 +17964,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -16937,6 +18024,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -16996,6 +18084,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -17055,6 +18144,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -17114,6 +18204,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -17173,6 +18264,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -17232,6 +18324,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -17291,6 +18384,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -17350,6 +18444,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -17409,6 +18504,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -17468,6 +18564,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -17527,6 +18624,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -17586,6 +18684,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -17645,6 +18744,7 @@ const talents = [
   {
     status: "Verified",
     field: "Front-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -17705,6 +18805,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -17764,6 +18865,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -17823,6 +18925,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -17882,6 +18985,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -17941,6 +19045,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -18000,6 +19105,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -18059,6 +19165,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -18118,6 +19225,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -18177,6 +19285,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -18236,6 +19345,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -18295,6 +19405,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -18354,6 +19465,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -18413,6 +19525,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -18472,6 +19585,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -18531,6 +19645,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -18590,6 +19705,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -18649,6 +19765,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -18708,6 +19825,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Monsieur",
@@ -18767,6 +19885,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -18826,6 +19945,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -18885,6 +20005,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -18944,6 +20065,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -19003,6 +20125,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -19062,6 +20185,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -19121,6 +20245,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -19180,6 +20305,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -19239,6 +20365,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -19298,6 +20425,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -19357,6 +20485,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -19416,6 +20545,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -19475,6 +20605,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -19534,6 +20665,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -19593,6 +20725,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -19652,6 +20785,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -19711,6 +20845,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -19770,6 +20905,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -19829,6 +20965,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -19888,6 +21025,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -19947,6 +21085,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -20006,6 +21145,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -20065,6 +21205,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -20124,6 +21265,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -20183,6 +21325,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -20242,6 +21385,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -20301,6 +21445,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -20360,6 +21505,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -20419,6 +21565,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -20478,6 +21625,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -20537,6 +21685,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -20596,6 +21745,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -20655,6 +21805,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -20714,6 +21865,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -20773,6 +21925,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -20832,6 +21985,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -20891,6 +22045,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -20950,6 +22105,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -21009,6 +22165,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -21068,6 +22225,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -21127,6 +22285,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -21186,6 +22345,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -21245,6 +22405,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Monsieur",
@@ -21304,6 +22465,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Monsieur",
@@ -21363,6 +22525,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -21422,6 +22585,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -21481,6 +22645,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Monsieur",
@@ -21540,6 +22705,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -21599,6 +22765,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -21658,6 +22825,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -21717,6 +22885,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -21776,6 +22945,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -21835,6 +23005,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -21894,6 +23065,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -21953,6 +23125,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -22012,6 +23185,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -22071,6 +23245,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -22130,6 +23305,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -22189,6 +23365,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -22248,6 +23425,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -22307,6 +23485,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -22366,6 +23545,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -22425,6 +23605,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -22484,6 +23665,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -22543,6 +23725,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -22602,6 +23785,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -22661,6 +23845,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Ms",
@@ -22720,6 +23905,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Mrs",
@@ -22779,6 +23965,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -22838,6 +24025,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -22897,6 +24085,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Miss",
@@ -22956,6 +24145,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -23015,6 +24205,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -23074,6 +24265,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -23133,6 +24325,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -23192,6 +24385,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -23251,6 +24445,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "female",
     name: {
       title: "Madame",
@@ -23310,6 +24505,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -23369,6 +24565,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -23428,6 +24625,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -23487,6 +24685,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",
@@ -23546,6 +24745,7 @@ const talents = [
   {
     status: "Verified",
     field: "Back-end Developer",
+    services: "",
     gender: "male",
     name: {
       title: "Mr",

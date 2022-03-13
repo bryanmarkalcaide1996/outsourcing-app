@@ -1,9 +1,14 @@
 import React from "react";
 import badge from "../../Assets/verified.png";
+import contact from "../../Assets/phone.png";
+import address from "../../Assets/location.png";
+import mail from "../../Assets/email.png";
 import "./Jobseeker.css";
 
 function Jobseeker({ person, setFlag }) {
   const {
+    cell,
+    email,
     field,
     name: { first, last },
     location: {
@@ -11,10 +16,8 @@ function Jobseeker({ person, setFlag }) {
       state,
       street: { number, name },
     },
-    email,
-    cell,
+    services,
   } = person;
-  console.log(person);
   return (
     <>
       <article className="jobseeker-container">
@@ -32,24 +35,72 @@ function Jobseeker({ person, setFlag }) {
 
           <div className="card">
             <div className="basic-info">
-              <div className="avatar-container">
+              <figure className="avatar-container">
                 <img
                   className="avatar"
                   src={person.picture.large}
                   alt={person.name.first}
                 />
+              </figure>
+
+              <div className="name-field-collapsed">
+                <h1>{`${first} ${last}`}</h1>
+                <h2>{field}</h2>
+                <div className="badge">
+                  <img src={badge} alt="approve seal" />
+                  <h3>Verified</h3>
+                </div>
               </div>
             </div>
 
             <div className="profile-info">
               <div className="left-box">
+                <button>Send Message</button>
+                <button>Add to Queue</button>
+              </div>
+
+              <div className="right-box">
                 <div className="contact-info">
-                  <p>{email}</p>
-                  <p>{`${number} ${name}, ${state}, ${country}`}</p>
-                  <p>{cell}</p>
+                  <figure className="directories">
+                    <img className="directory-image" src={mail} alt="email" />
+                    <a href={`mailto:${email}`}> {email}</a>
+                  </figure>
+
+                  <figure className="directories">
+                    <img
+                      className="directory-image"
+                      src={address}
+                      alt="address"
+                    />
+                    {`${number} ${name}, ${state}, ${country}`}
+                  </figure>
+
+                  <figure className="directories">
+                    <img
+                      className="directory-image"
+                      src={contact}
+                      alt="phone"
+                    />
+                    {cell}
+                  </figure>
+
+                  <section>
+                    <h4>Rate: 12$ / hr</h4>
+                    <h4>Availability: 40hrs / week</h4>
+                  </section>
+
+                  <section>
+                    <h4>Services Offered</h4>
+                    {Object.keys(services).length > 0 && (
+                      <ul>
+                        {Object.keys(services).map((item, i) => {
+                          return <li key={i}>{services[item]}</li>;
+                        })}
+                      </ul>
+                    )}
+                  </section>
                 </div>
               </div>
-              <div className="right-box"></div>
             </div>
           </div>
         </div>
