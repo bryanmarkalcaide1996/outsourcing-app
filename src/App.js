@@ -28,12 +28,11 @@ function App() {
         <Navigation token={token} />
         <Routes>
           {/* Route */}
-          {token && (
-            <Route path="/" element={<Homepage setToken={setToken} />} />
-          )}
+
+          <Route path="/" element={<Homepage setToken={setToken} />} />
 
           {/* Route */}
-          <Route exact path="/" element={<Login setToken={setToken} />} />
+          <Route exact path="/login" element={<Login setToken={setToken} />} />
 
           {/* Route */}
           <Route
