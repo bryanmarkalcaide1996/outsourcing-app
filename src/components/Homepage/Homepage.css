@@ -1,10 +1,11 @@
 .homepage {
-  position: relative;
+  background: beige;
 }
 .btt {
   align-items: center;
   background: black;
   border-radius: 5px 0 0 5px;
+  color: white;
   display: flex;
   float: right;
   height: 90px;
