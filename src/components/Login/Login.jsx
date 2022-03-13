@@ -29,8 +29,9 @@ function Login({ setToken }) {
     <div className="login-section" onSubmit={useHandleSubmit}>
       <div className="login-form-container">
         <form className="login-form">
+        <h1> Log In</h1>
+        <h6> Have an Account?</h6>
           <label className="login-form-label">
-            <h3> Username</h3>
             <input
               autoComplete="off"
               type="text"
@@ -39,12 +40,12 @@ function Login({ setToken }) {
               onChange={handleChange}
               name="usernameInput"
               value={user.usernameInput}
+              placeholder="Username"
             />
           </label>
           <small>{errorLogs?.usernameInput}</small>
 
           <label className="login-form-label">
-            <h3> Password</h3>
             <input
               autoComplete="off"
               type="password"
@@ -53,6 +54,7 @@ function Login({ setToken }) {
               onChange={handleChange}
               name="passwordInput"
               value={user.passwordInput}
+              placeholder="Password"
             />
           </label>
           <small>{errorLogs?.passwordInput}</small>
@@ -60,7 +62,13 @@ function Login({ setToken }) {
           <label className="login-form-label">
             <button className="login-inputs">Login</button>
           </label>
-        </form>
+          <div className="lower-part">
+          
+          <input type="checkbox" name="remember" id="remember"/>
+          <label for="remember">Remember me?</label>
+          <a href="/src/components/Register/Register.jsx">Register</a>
+          </div>
+          </form>
       </div>
     </div>
   );

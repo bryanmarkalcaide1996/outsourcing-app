@@ -1,27 +1,47 @@
 .login-section {
+  background-image: url(/src/Assets/login\ bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.login-form {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 120px;
 }
-.login-form-container {
-  background-color: teal;
-}
-.login-form {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 600px;
-  width: 30vw;
-  justify-content: center;
+
+.login-form h1 {
   padding: 20px;
 }
-.login-form-label {
-  margin: 20px;
-}
-.login-inputs {
-  padding: 10px;
+input {
   width: 30vw;
-  box-sizing: border-box;
+  height: 7vh;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 25px;
+  border: 2px solid black;
+  opacity: 80%;
+}
+
+button {
+  width: 25vw;
+  height: 5vh;
+  font-size: large;
+}
+.lower-part {
+  width: 30vw;
+  margin: 10px;
+}
+.lower-part input {
+  padding: 0;
+  margin: 5px;
+  display: inline-flex;
+  width: 15px;
+  height: 2vh;
+}
+.lower-part a {
+  float: right;
+  color: black;
 }
