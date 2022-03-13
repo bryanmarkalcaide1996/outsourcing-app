@@ -7,7 +7,8 @@ function Homepage({ setToken }) {
       <section className="left-part">
         <div className="content">
           <h1>Optimizing Your Business Website Page. Starts Here!</h1>
-          <h4>The Phenomenal Innovator</h4>
+          <p>The Phenomenal Innovator</p>
+
           <a href="/services">
             <button> Find Out More</button>
           </a>
