@@ -27,26 +27,12 @@ function App() {
       <Router>
         <Navigation token={token} />
         <Routes>
-          {/* Route */}
-          <Route path="/" element={<Homepage setToken={setToken} />} />
-
-          {/* Route */}
-          <Route exact path="/login" element={<Login setToken={setToken} />} />
-
-          {/* Route */}
-          <Route
-            path={"/register"}
-            element={<Register database={database} />}
-          />
-
-          {/* Route */}
-          <Route path="/profile" element={<Profile />} />
-
-          {/* Route */}
-          {token && <Route path="/talents" element={<Talents />} />}
-
-          {/* Route */}
-          {token && <Route path="/jobseeker" element={<Jobseeker />} />}
+          <Route exact path="/" element={<Homepage />} />
+          <Route exact path="/login" element={<Login />} />
+          <Route exact path="/profile" element={<Profile />} />
+          <Route exact path="/jobseeker" element={<Jobseeker />} />
+          <Route exact path="/register" element={<Register />} />
+          <Route exact path="/talents" element={<Talents />} />
         </Routes>
       </Router>
     </div>

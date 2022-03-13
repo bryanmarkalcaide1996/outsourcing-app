@@ -74,7 +74,11 @@ function Talents() {
                       className="name-link"
                     >{`${title} ${first} ${last}`}</td>
                     <td>
-                      <img src={person.picture.medium} alt="avatar" />
+                      <img
+                        src={person.picture.medium}
+                        alt="avatar"
+                        className="img"
+                      />
                     </td>
                     <td>{person.gender}</td>
                     <td>{person.cell}</td>

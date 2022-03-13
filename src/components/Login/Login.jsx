@@ -26,9 +26,9 @@ function Login({ setToken }) {
     }
   }, [errorLogs, errorStat, setToken]);
   return (
-    <div className="login-section" onSubmit={useHandleSubmit}>
+    <div className="login-section">
       <div className="login-form-container">
-        <form className="login-form">
+        <form className="login-form" onSubmit={useHandleSubmit}>
           <h1> Log In</h1>
           <h6> Have an Account?</h6>
           <label className="login-form-label">
@@ -63,8 +63,6 @@ function Login({ setToken }) {
             <button className="login-inputs">Login</button>
           </label>
           <div className="lower-part">
-            <input type="checkbox" name="remember" id="remember" />
-            <label for="remember">Remember me?</label>
             <a href="/register">Register</a>
           </div>
         </form>
