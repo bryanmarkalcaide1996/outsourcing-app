@@ -3,10 +3,10 @@
 }
 
 .left-part {
+  padding: 30px;
   align-items: center;
   display: flex;
   justify-content: center;
-
   background-color: beige;
   width: 60vw;
   height: 95vh;
@@ -17,4 +17,16 @@
 img {
   width: 50vw;
   height: 95vh;
+}
+h1 {
+  font-size: 3.2rem;
+}
+p {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+button {
+  padding: 10px !important;
+  font-size: medium;
+  margin: 15px 15px 0 0 !important;
 }

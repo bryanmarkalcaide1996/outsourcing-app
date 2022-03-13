@@ -26,9 +26,8 @@ input {
 }
 
 button {
-  width: 25vw;
-  height: 5vh;
-  font-size: large;
+  padding: 5px 13vw !important;
+  font-size: medium !important;
 }
 .lower-part {
   width: 30vw;
