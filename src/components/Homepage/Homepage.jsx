@@ -1,26 +1,18 @@
 import "./Homepage.css";
-import homepage from "../../Assets/homepage.jpg";
+import Hero from "../Hero Section/Hero";
+import Services from "../Services Section/Services";
+import About from "../About us Section/About ";
 
-function Homepage({ setToken }) {
+function Homepage() {
   return (
-    <div className="container">
-      <section className="left-part">
-        <div className="content">
-          <h1>Optimizing Your Business Website Page. Starts Here!</h1>
-          <p>The Phenomenal Innovator</p>
-
-          <a href="/services">
-            <button> Find Out More</button>
-          </a>
-          <a href="/login">
-            <button> Log In</button>
-          </a>
-        </div>
-      </section>
-      <section className="right-part">
-        <img src={homepage} alt="homepage" />
-      </section>
-    </div>
+    <article className="homepage">
+      <a href="#hero">
+        <div className="btt">Top</div>
+      </a>
+      <Hero />
+      <Services />
+      <About />
+    </article>
   );
 }
 

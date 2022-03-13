@@ -1,14 +1,15 @@
 import "./Talent.css";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import useGetData from "../utils/useGetData.js";
-import Jobseeker from "../Jobseeker Profile/Jobseeker.jsx";
 
 function Talents() {
-  const [data, setData] = useState(useGetData("jobseekers", "arr"));
-  const [flag, setFlag] = useState(false);
+  const [data] = useState(useGetData("jobseekers", "arr"));
   const [person, setPerson] = useState({});
   const [filteredData, setFilteredData] = useState(data);
+  const navigate = useNavigate();
 
+  // Filters database according to category selected
   function filter(e) {
     const { value } = e.target;
     if (value === "All") {
@@ -22,6 +23,7 @@ function Talents() {
     }
   }
 
+  // Finds a specific selection.
   function lookFor(e) {
     const { id } = e.target;
     setPerson(
@@ -30,13 +32,22 @@ function Talents() {
         return first === id;
       })
     );
-    setFlag(true);
   }
+
+  //  Redirect to individual profile when changes in dependencies detected.
+  useEffect(() => {
+    !JSON.parse(localStorage.getItem("isLoggedIn")) && navigate("/login");
+    if (Object.keys(person).length > 0) {
+      localStorage.setItem("jobseeker", JSON.stringify(person));
+      navigate("/jobseeker");
+    }
+  }, [navigate, person]);
 
   return (
     <>
-      {!flag ? (
-        <div>
+      <div>
+        {/* Sets of filter button for categorizing talent */}
+        <div className="button-collection">
           <button onClick={filter} value="All">
             All
           </button>
@@ -52,46 +63,42 @@ function Talents() {
           <button onClick={filter} value="Back-end Developer">
             Back-end Developers
           </button>
-          <table>
-            <thead>
-              <tr>
-                <th>Full Name</th>
-                <th>Image</th>
-                <th>Gender</th>
-                <th>Contact</th>
-                <th>Field</th>
-              </tr>
-            </thead>
-
-            {filteredData.map((person, idx) => {
-              const { title, first, last } = person.name;
-              return (
-                <tbody key={idx}>
-                  <tr>
-                    <td
-                      onClick={lookFor}
-                      id={first}
-                      className="name-link"
-                    >{`${title} ${first} ${last}`}</td>
-                    <td>
-                      <img
-                        src={person.picture.medium}
-                        alt="avatar"
-                        className="img"
-                      />
-                    </td>
-                    <td>{person.gender}</td>
-                    <td>{person.cell}</td>
-                    <th>{person.field}</th>
-                  </tr>
-                </tbody>
-              );
-            })}
-          </table>
         </div>
-      ) : (
-        <Jobseeker setFlag={setFlag} person={person} />
-      )}
+        <table>
+          <thead>
+            <tr>
+              <th>Full Name</th>
+              <th>Image</th>
+              <th>Gender</th>
+              <th>Contact</th>
+              <th>Field</th>
+            </tr>
+          </thead>
+
+          {filteredData.map((person, idx) => {
+            const { title, first, last } = person.name;
+            return (
+              <tbody key={idx}>
+                <tr>
+                  <td onClick={lookFor} id={first} className="name-link">
+                    {`${title} ${first} ${last}`}
+                  </td>
+                  <td>
+                    <img
+                      src={person.picture.medium}
+                      alt="avatar"
+                      className="img"
+                    />
+                  </td>
+                  <td>{person.gender}</td>
+                  <td>{person.cell}</td>
+                  <th>{person.field}</th>
+                </tr>
+              </tbody>
+            );
+          })}
+        </table>
+      </div>
     </>
   );
 }

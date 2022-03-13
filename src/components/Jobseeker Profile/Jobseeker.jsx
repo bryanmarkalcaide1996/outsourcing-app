@@ -1,11 +1,21 @@
-import React from "react";
+import "./Jobseeker.css";
+import React, { useEffect } from "react";
 import badge from "../../Assets/verified.png";
 import contact from "../../Assets/phone.png";
 import address from "../../Assets/location.png";
 import mail from "../../Assets/email.png";
-import "./Jobseeker.css";
+import { useNavigate } from "react-router-dom";
 
-function Jobseeker({ person, setFlag }) {
+function Jobseeker() {
+  // Fetches the data from the database for rendering purposes
+  const person = JSON.parse(localStorage.getItem("jobseeker"));
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    !JSON.parse(localStorage.getItem("isLoggedIn")) && navigate("/login");
+    JSON.parse(localStorage.getItem("isLoggedIn"));
+  });
+
   const {
     cell,
     email,
@@ -55,8 +65,8 @@ function Jobseeker({ person, setFlag }) {
 
             <div className="profile-info">
               <div className="left-box">
-                <button>Send Message</button>
-                <button>Add to Queue</button>
+                <button className="cta-button">Send Message</button>
+                <button className="cta-button">Add to Queue</button>
               </div>
 
               <div className="right-box">

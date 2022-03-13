@@ -1,32 +1,15 @@
-.container {
-  display: flex;
+.homepage {
+  position: relative;
 }
-
-.left-part {
-  padding: 30px;
+.btt {
   align-items: center;
+  background: black;
+  border-radius: 5px 0 0 5px;
   display: flex;
+  float: right;
+  height: 90px;
   justify-content: center;
-  background-color: beige;
-  width: 60vw;
-  height: 95vh;
-}
-.right-part {
-}
-
-img {
-  width: 50vw;
-  height: 95vh;
-}
-h1 {
-  font-size: 3.2rem;
-}
-p {
-  font-weight: 500;
-  font-size: 1.2rem;
-}
-button {
-  padding: 10px !important;
-  font-size: medium;
-  margin: 15px 15px 0 0 !important;
+  position: sticky;
+  top: 900px;
+  width: 50px;
 }

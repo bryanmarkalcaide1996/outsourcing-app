@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import useValidate from "../utils/useValidate";
 import "./Login.css";
 
@@ -7,6 +8,7 @@ function Login({ setToken }) {
   const [user, setUser] = useState({ usernameInput: "", passwordInput: "" });
   const [errorLogs, setErrorLogs] = useState({});
   const [errorStat, setErrorStat] = useState(false);
+  const navigate = useNavigate();
 
   function handleChange(e) {
     const { name, value } = e.target;
@@ -23,8 +25,9 @@ function Login({ setToken }) {
     if (Object.keys(errorLogs).length === 0 && errorStat) {
       setToken(true);
       localStorage.setItem("isLoggedIn", JSON.stringify(true));
+      navigate("/");
     }
-  }, [errorLogs, errorStat, setToken]);
+  }, [errorLogs, errorStat, setToken, navigate]);
   return (
     <div className="login-section">
       <div className="login-form-container">

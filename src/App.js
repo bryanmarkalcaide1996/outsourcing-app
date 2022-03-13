@@ -18,6 +18,8 @@ function App() {
   );
 
   useEffect(() => {
+    !JSON.parse(localStorage.getItem("isLoggedIn")) &&
+      localStorage.setItem("jobseeker", JSON.stringify({}));
     localStorage.setItem("isLoggedIn", JSON.stringify(token));
     localStorage.setItem("jobseekers", JSON.stringify(talents));
   });
@@ -25,14 +27,25 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navigation token={token} />
+        <Navigation token={token} setToken={setToken} />
         <Routes>
+          {/* Home Route */}
           <Route exact path="/" element={<Homepage />} />
-          <Route exact path="/login" element={<Login />} />
-          <Route exact path="/profile" element={<Profile />} />
-          <Route exact path="/jobseeker" element={<Jobseeker />} />
-          <Route exact path="/register" element={<Register />} />
-          <Route exact path="/talents" element={<Talents />} />
+
+          {/* Login Route */}
+          <Route path="/login" element={<Login setToken={setToken} />} />
+
+          {/* Register Route */}
+          <Route path="/register" element={<Register database={database} />} />
+
+          {/* Job seeker Profile Route */}
+          <Route path="/jobseeker" element={<Jobseeker />} />
+
+          {/* Talents Route */}
+          <Route path="/talents" element={<Talents />} />
+
+          {/* Client Profile Route */}
+          <Route path="/profile" element={<Profile setToken={setToken} />} />
         </Routes>
       </Router>
     </div>
