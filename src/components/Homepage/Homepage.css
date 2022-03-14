@@ -1,13 +1,5 @@
-
-/* .binder {
-  background-color: beige;
-}
-.container {
-  display: flex; */
-
 .homepage {
   background: beige;
-
 }
 .btt {
   align-items: center;
@@ -19,92 +11,6 @@
   height: 90px;
   justify-content: center;
   position: fixed;
-  width: 500px;
-  height: 40px;
-}
-/* .right-part {
-}
-
-.homepage {
-  width: 50vw;
-  height: 95vh;
-}
-.content-title {
-  font-size: 3.2rem;
-}
-p {
-  font-weight: 500;
-  font-size: 1.2rem;
-}
-button {
-  padding: 10px !important;
-  font-size: medium;
-  margin: 15px 15px 0 0 !important;
-
-  position: fixed;
   top: 500px;
   width: 40px;
->>>>>>> master
 }
-
-.bottom-card {
-  margin: 0;
-  background-image: url(/src/Assets/about\ bg.jpg);
-  background-size: cover;
-}
-
-.bottom {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 3rem;
-}
-
-.about {
-  padding: 15px 4vw;
-  border: 2px solid black;
-  margin: 50px 80px;
-  text-align: center;
-  background-color: white;
-}
-.title-container {
-  padding: 8px;
-}
-.card-title {
-  padding: 10px;
-  margin: 15px;
-}
-.bottom-container {
-  position: relative;
-  margin: 30px;
-}
-.card-content {
-  background-color: white;
-  padding: 10px;
-  text-align: center;
-  width: 25vw;
-  height: 60vh;
-  border: 2px solid black;
-}
-.cardlist {
-  padding: 0 40px;
-  text-align: start;
-}
-.cardlist li {
-  list-style: disc;
-}
-.logo {
-  position: absolute;
-  background-color: black;
-  width: 80px;
-  height: 80px;
-  border-radius: 100%;
-  margin-top: 20px;
-  left: 7.5rem;
-  bottom: 19.2rem;
-}
-.logo img {
-  width: 50px;
-  margin: 15px;
-}
- */

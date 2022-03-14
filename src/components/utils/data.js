@@ -1,3 +1,37 @@
+import cyborg from "../../Assets/cyborg.png";
+import coding from "../../Assets/coding.png";
+import setting from "../../Assets/setting.png";
+export const cardData = [
+  {
+    motto: "What we do",
+    description: [
+      "Building a healthy foundation for your business",
+      ` Managing and growing your path by upgrading your website that's accessible by many customers`,
+    ],
+    logo: coding,
+  },
+  {
+    motto: "Why we do",
+    description: [
+      `As a Phenomenal Innovator we will make sure help your business
+     have name and be seen by many people and become your future
+     customers`,
+      `  As a Phenomenal Innovator we want your dreams to come true`,
+    ],
+    logo: setting,
+  },
+  {
+    motto: "Who we are",
+    description: [
+      `  The astounding developer company that will handle your website
+    to make sure it will be accessible and up to date`,
+      `The company make sure to satisfy you and hired an excellent
+    developer that will handle your website`,
+    ],
+    logo: cyborg,
+  },
+];
+
 const talents = [
   {
     status: "Verified",
