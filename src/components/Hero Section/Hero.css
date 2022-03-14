@@ -1,16 +1,17 @@
 .hero-section {
   display: flex;
-  height: 100vh;
+  height: 80vh;
   padding: 4vw;
 }
 .left-content {
-  justify-content: center;
-  flex: 1;
   display: flex;
+  flex: 1;
   flex-direction: column;
+  justify-content: center;
+  padding-right: 60px;
 }
 .left-content h1 {
-  font-size: 5.5rem;
+  font-size: 4.8rem;
   font-weight: black;
 }
 .left-content p {
@@ -46,6 +47,7 @@
 }
 .hero-image {
   width: 100%;
+  box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.5);
   object-fit: cover;
   object-position: left;
 }

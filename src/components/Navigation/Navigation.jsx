@@ -84,7 +84,7 @@ function Navigation({ token, setToken }) {
                     onClick={() => {
                       localStorage.setItem("jobseeker", JSON.stringify({}));
                       setToken(false);
-                      navigate("/");
+                      navigate("/login");
                     }}
                   >
                     Logout

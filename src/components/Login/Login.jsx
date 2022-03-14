@@ -25,7 +25,7 @@ function Login({ setToken }) {
     if (Object.keys(errorLogs).length === 0 && errorStat) {
       setToken(true);
       localStorage.setItem("isLoggedIn", JSON.stringify(true));
-      navigate("/");
+      navigate("/profile");
     }
   }, [errorLogs, errorStat, setToken, navigate]);
   return (
@@ -33,41 +33,49 @@ function Login({ setToken }) {
       <div className="login-form-container">
         <form className="login-form" onSubmit={useHandleSubmit}>
           <h1> Log In</h1>
-          <h6> Have an Account?</h6>
+          <p> Already have an Account?</p>
 
           <label className="login-form-label">
             <input
               autoComplete="off"
               type="text"
               id="usernameInput"
-              className="login-inputs"
               onChange={handleChange}
               name="usernameInput"
               value={user.usernameInput}
               placeholder="Username"
             />
           </label>
-          <small>{errorLogs?.usernameInput}</small>
+          <div className="small-text">
+            <small>{errorLogs?.usernameInput}</small>
+          </div>
 
           <label className="login-form-label">
             <input
               autoComplete="off"
               type="password"
               id="passwordInput"
-              className="login-inputs"
               onChange={handleChange}
               name="passwordInput"
               value={user.passwordInput}
               placeholder="Password"
             />
           </label>
-          <small>{errorLogs?.passwordInput}</small>
+          <div className="small-text">
+            <small>{errorLogs?.passwordInput}</small>
+          </div>
 
-          <label className="login-form-label">
-            <button className="login-inputs">Login</button>
-          </label>
-          <div className="lower-part">
-            <a href="/register">Register</a>
+          <div className="login-form-label bottom-area">
+            <button className="login-btn">Login</button>
+
+            <div className="divider"></div>
+            <a href="/" className="register">
+              Sign in with Google
+            </a>
+            <div className="divider"></div>
+            <a href="/register" className="register">
+              Register
+            </a>
           </div>
         </form>
       </div>

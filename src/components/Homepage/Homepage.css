@@ -6,11 +6,11 @@
   background: black;
   border-radius: 5px 0 0 5px;
   color: white;
+  right: 0;
   display: flex;
-  float: right;
   height: 90px;
   justify-content: center;
-  position: sticky;
-  top: 900px;
-  width: 50px;
+  position: fixed;
+  top: 500px;
+  width: 40px;
 }
