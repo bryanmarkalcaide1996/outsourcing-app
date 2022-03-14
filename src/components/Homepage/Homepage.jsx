@@ -5,8 +5,8 @@ import About from "../About us Section/About ";
 
 function Homepage() {
   return (
-    <article className="homepage">
-      <a href="#hero">
+    <article className="home">
+      <a href="#home">
         <div className="btt">Top</div>
       </a>
       <Hero />

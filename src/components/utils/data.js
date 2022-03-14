@@ -1,6 +1,7 @@
 import cyborg from "../../Assets/cyborg.png";
 import coding from "../../Assets/coding.png";
 import setting from "../../Assets/setting.png";
+
 export const cardData = [
   {
     motto: "What we do",
@@ -29,6 +30,24 @@ export const cardData = [
     developer that will handle your website`,
     ],
     logo: cyborg,
+  },
+];
+
+export const servicesData = [
+  {
+    title: "Virtual Assistance ",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.  fugiat! Minima, dolor sunt.",
+    img: coding,
+  },
+  {
+    title: "Front-end Developer Assistance ",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.  fugiat! Minima, dolor sunt.",
+    img: coding,
+  },
+  {
+    title: "Back-End Development Assistance ",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.  fugiat! Minima, dolor sunt.",
+    img: coding,
   },
 ];
 

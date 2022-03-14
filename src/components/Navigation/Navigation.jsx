@@ -8,7 +8,12 @@ function Navigation({ token, setToken }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <a className="navbar-brand" href="/">
-        <img src={logo} alt="phenomenal innovator" className="branding" />
+        <img
+          src={logo}
+          alt="phenomenal innovator"
+          className="branding"
+          id="home"
+        />
       </a>
       <button
         className="navbar-toggler"
@@ -35,8 +40,8 @@ function Navigation({ token, setToken }) {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/#services">
-              Services
+            <a className="nav-link" href="/#about">
+              About
             </a>
           </li>
           {token && (

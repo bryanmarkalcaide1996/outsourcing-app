@@ -3,7 +3,7 @@ import { cardData } from "../utils/data.js";
 
 function About() {
   return (
-    <section className="about-section">
+    <section className="about-section" id="about">
       <div className="bg-card">
         <h1 className="about">About us</h1>
         {cardData.map((item) => {

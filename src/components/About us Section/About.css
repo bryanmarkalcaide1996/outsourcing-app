@@ -19,6 +19,7 @@
 .about {
   background: rgb(245, 245, 220, 0.8);
   border: 1px solid rgb(33, 37, 41);
+  border-radius: 5px;
   grid-area: about;
   padding: 20px;
   text-align: center;
@@ -26,9 +27,15 @@
 .card {
   background: rgb(245, 245, 220, 0.8);
   border: 1px solid rgb(33, 37, 41);
+  border-radius: 5px;
+  cursor: pointer;
   font-weight: 500;
   height: 480px;
   padding: 10px;
+  transition: all 0.3s;
+}
+.card:hover {
+  transform: scale(1.1);
 }
 .grouping-1 {
   align-items: center;
@@ -37,6 +44,7 @@
 }
 .circle {
   align-items: center;
+  background: rgb(33, 37, 41, 0.5);
   border: 1px solid rgb(33, 37, 41);
   border-radius: 50%;
   display: flex;

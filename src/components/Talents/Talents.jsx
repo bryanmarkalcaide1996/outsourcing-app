@@ -44,7 +44,7 @@ function Talents() {
   }, [navigate, person]);
 
   return (
-    <>
+    <section className="talent-pool">
       <div>
         {/* Sets of filter button for categorizing talent */}
         <div className="button-collection">
@@ -99,7 +99,7 @@ function Talents() {
           })}
         </table>
       </div>
-    </>
+    </section>
   );
 }
 

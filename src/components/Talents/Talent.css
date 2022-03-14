@@ -1,3 +1,7 @@
+.talent-pool {
+  display: flex;
+  justify-content: center;
+}
 .name-link {
   cursor: pointer;
 }

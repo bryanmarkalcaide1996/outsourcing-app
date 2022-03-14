@@ -8,7 +8,9 @@ function Hero() {
       <div className="left-content">
         <h1>Optimizing Your Business Website Page. Starts Here!</h1>
         <p>The Phenomenal Innovator</p>
-        <button> Find Out More</button>
+        <a href="#services">
+          <button> Find Out More</button>
+        </a>
       </div>
 
       <figure className="right-content">

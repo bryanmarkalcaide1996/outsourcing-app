@@ -72,7 +72,7 @@ function Jobseeker() {
               {cell}
             </figure>
 
-            <button className="cta-button">Send Message</button>
+            <button className="cta-button main-cta">Send Message</button>
             <button className="cta-button">Add to Queue</button>
           </div>
 

@@ -8,7 +8,9 @@
 }
 .profile-container {
   box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.5);
-  height: 600px;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 560px;
 }
 .color-theme {
   background: rgb(33, 37, 41);
@@ -48,6 +50,7 @@
 }
 .left-box {
   flex: 1;
+  padding-right: 60px;
 }
 .directories {
   display: flex;
@@ -57,12 +60,20 @@
   margin-right: 15px;
 }
 .right-box {
-  flex: 1;
+  flex: 3;
 }
 .list-container {
   padding: 0;
 }
+.main-cta {
+  background: rgb(33, 37, 41) !important;
+  border: 1px solid rgb(33, 37, 41);
+  color: beige;
+}
 .cta-button {
+  background: none;
+  border: 1px solid;
+  border-radius: 5px;
   display: block;
   margin: 20px 0;
   padding: 10px;
