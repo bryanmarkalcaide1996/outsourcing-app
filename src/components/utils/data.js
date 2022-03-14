@@ -1,6 +1,9 @@
 import cyborg from "../../Assets/cyborg.png";
 import coding from "../../Assets/coding.png";
 import setting from "../../Assets/setting.png";
+import virtualAssistant from "../../Assets/VirtualAssistant.jpg";
+import frontEnd from "../../Assets/FrontEnd.jpg";
+import backEnd from "../../Assets/BackEnd.jpg";
 
 export const cardData = [
   {
@@ -35,19 +38,19 @@ export const cardData = [
 
 export const servicesData = [
   {
-    title: "Virtual Assistance ",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.  fugiat! Minima, dolor sunt.",
-    img: coding,
+    title: "Virtual Assistance",
+    desc: "We perform various administrative tasks, including answering emails, scheduling meetings and making travel arrangements.",
+    img: virtualAssistant,
   },
   {
-    title: "Front-end Developer Assistance ",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.  fugiat! Minima, dolor sunt.",
-    img: coding,
+    title: "Front-end Development Assistance",
+    desc: "We are responsible in implementing visual and interactive elements that users engage with through their web browser when using a web application.",
+    img: frontEnd,
   },
   {
-    title: "Back-End Development Assistance ",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.  fugiat! Minima, dolor sunt.",
-    img: coding,
+    title: "Back-End Development Assistance",
+    desc: " We create, code, and improve the server, server-side applications, and databases that, when combined with front-end codes, help create a functional, seamless experience for the end-user.",
+    img: backEnd,
   },
 ];
 
