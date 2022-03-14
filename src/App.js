@@ -18,6 +18,8 @@ function App() {
   );
 
   useEffect(() => {
+    !JSON.parse(localStorage.getItem("isLoggedIn")) &&
+      localStorage.setItem("jobseeker", JSON.stringify({}));
     localStorage.setItem("isLoggedIn", JSON.stringify(token));
     localStorage.setItem("jobseekers", JSON.stringify(talents));
   });
@@ -25,29 +27,25 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navigation token={token} />
+        <Navigation token={token} setToken={setToken} />
         <Routes>
-          {/* Route */}
+          {/* Home Route */}
+          <Route exact path="/" element={<Homepage />} />
 
-          <Route path="/" element={<Homepage setToken={setToken} />} />
+          {/* Login Route */}
+          <Route path="/login" element={<Login setToken={setToken} />} />
 
-          {/* Route */}
-          <Route exact path="/login" element={<Login setToken={setToken} />} />
+          {/* Register Route */}
+          <Route path="/register" element={<Register database={database} />} />
 
-          {/* Route */}
-          <Route
-            path={"/register"}
-            element={<Register database={database} />}
-          />
+          {/* Job seeker Profile Route */}
+          <Route path="/jobseeker" element={<Jobseeker />} />
 
-          {/* Route */}
-          <Route path="/profile" element={<Profile />} />
+          {/* Talents Route */}
+          <Route path="/talents" element={<Talents />} />
 
-          {/* Route */}
-          {token && <Route path="/talents" element={<Talents />} />}
-
-          {/* Route */}
-          {token && <Route path="/jobseeker" element={<Jobseeker />} />}
+          {/* Client Profile Route */}
+          <Route path="/profile" element={<Profile setToken={setToken} />} />
         </Routes>
       </Router>
     </div>

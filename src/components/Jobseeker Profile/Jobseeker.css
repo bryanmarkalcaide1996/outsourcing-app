@@ -1,144 +1,70 @@
 .jobseeker-container {
-  padding: 5vw;
   align-items: center;
+  background: beige;
   display: flex;
-  flex-direction: column;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  position: relative;
+  justify-content: center;
+  padding: 4vw;
+  height: 100vh;
 }
-
 .profile-container {
-  width: 800px;
-  position: relative;
-  box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  height: 600px;
 }
 .color-theme {
-  align-items: flex-end;
-  background: black;
-  color: white;
-  display: flex;
-  position: absolute;
-  font-family: monospace;
-  height: 210px;
-  width: 100%;
-}
-.color-theme h1 {
-  font-size: 2.2rem;
-}
-.color-theme h2 {
-  font-size: 1.3rem;
-  font-weight: lighter;
-  margin: 10px 0;
-}
-.name-field {
-  padding: 0 0 15px 210px;
-}
-.badge {
+  background: rgb(33, 37, 41);
   display: flex;
   align-items: center;
+  padding: 20px;
 }
-.badge h3 {
-  margin-left: 10px;
-}
-.card {
-  margin-top: 90px;
-  width: 100%;
-}
-.basic-info {
-  color: white;
-  display: flex;
-  padding: 25px 0 0 25px;
-  position: absolute;
-}
-.name-field-collapsed {
-  display: none;
-}
-.contact-info {
-  color: black;
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-}
-.contact-info section ul li {
-  margin: 10px 0;
-}
-.description h4 {
-  margin: 10px 0;
-}
-.directories {
-  display: flex;
-  align-items: center;
-  margin: 10px 0;
-}
-.directory-image {
-  margin: 5px 15px 0 0;
-}
-
 .avatar-container {
+  align-items: center;
   border-radius: 50%;
   border: 5px solid white;
+  display: flex;
+  flex: 2;
   overflow: hidden;
+  margin-right: 20px;
 }
 .avatar {
   width: 100%;
 }
-
-.profile-info {
+.name-field {
+  color: white;
+  flex: 8;
+}
+.field-text {
+  font-size: 1.5rem;
+}
+.badge {
+  padding: 0;
+}
+.badge p {
+  display: inline-block;
+  margin-left: 5px;
+}
+.contact-info {
   display: flex;
-  padding-top: 120px;
+  padding: 20px;
 }
 .left-box {
   flex: 1;
-  margin-top: 60px;
-  padding: 10px;
-  width: 200px;
+}
+.directories {
+  display: flex;
+  align-items: center;
+}
+.directory-image {
+  margin-right: 15px;
 }
 .right-box {
-  flex: 3;
+  flex: 1;
+}
+.list-container {
+  padding: 0;
+}
+.cta-button {
+  display: block;
+  margin: 20px 0;
   padding: 10px;
-}
-
-@media (max-width: 800px) {
-  .profile-container {
-    width: 95vw;
-    position: relative;
-  }
-}
-@media (max-width: 480px) {
-  .card {
-    justify-content: center;
-    display: flex;
-  }
-  .profile-info {
-    flex-direction: column;
-  }
-  .basic-info {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-  }
-  .name-field {
-    display: none;
-  }
-
-  .name-field-collapsed {
-    display: block;
-  }
-  .name-field-collapsed h1,
-  .name-field-collapsed h2 {
-    color: black;
-  }
-  .badge {
-    margin-top: 10px;
-  }
-  .badge h3 {
-    color: black;
-  }
-  .profile-info {
-    align-items: center;
-    margin-top: 100px;
-    flex-direction: column-reverse;
-  }
+  width: 200px;
 }

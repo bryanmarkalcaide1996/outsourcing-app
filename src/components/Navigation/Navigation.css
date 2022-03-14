@@ -1,27 +1,31 @@
-.navigation-bar {
-  align-items: center;
-  background-color: black;
-  display: flex;
-  height: 80px;
+.navbar {
+  padding: 10px 4vw;
+}
+.branding {
+  width: 50px;
+}
+.navbar-collapse {
   justify-content: flex-end;
-  padding: 0 90px;
 }
-.navigation-container {
+.nav-link {
+  margin-left: 60px;
+  transition: all 0.3s;
+}
+.nav-link:hover {
+  transform: scale(1.1);
+}
+.nav-item {
+  align-items: center;
   display: flex;
-  justify-content: space-between;
 }
-.navigation-link-container {
-  margin-left: 90px;
+.gear:hover {
+  animation: rotation 10s infinite linear;
 }
-.links {
-  color: white;
-}
-
-@media (max-width: 480px) {
-  .navigation-bar {
-    padding: 0 30px;
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
   }
-  .navigation-container {
-    width: auto;
+  to {
+    transform: rotate(359deg);
   }
 }

@@ -2,6 +2,9 @@
   background-image: url(/src/Assets/login\ bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
 }
 .login-form {
@@ -9,38 +12,55 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 120px;
 }
-
+.login-form-label {
+  width: 100%;
+  margin: 40px 0;
+}
 .login-form h1 {
   padding: 20px;
 }
+.login-form p {
+  font-size: 1.2rem;
+}
 input {
-  width: 30vw;
-  height: 5vh;
-  padding: 10px;
-  margin: 20px;
-  border-radius: 25px;
-  border: 2px solid black;
+  padding: 15px;
+  width: 450px;
+  border-radius: 5px;
+  border: 2px solid #212529;
   opacity: 80%;
 }
-
-button {
-  padding: 5px 13vw !important;
-  font-size: medium !important;
+.bottom-area {
+  display: flex;
+  justify-content: space-between;
 }
-.lower-part {
-  width: 30vw;
-  margin: 10px;
+.login-btn {
+  background: #212529;
+  border: 1px solid;
+  border-radius: 5px;
+  color: white;
+  width: 90px;
+  padding: 10px;
+  transition: all 0.3s;
 }
-.lower-part input {
-  padding: 0;
-  margin: 5px;
-  display: inline-flex;
-  width: 15px;
-  height: 2vh;
-}
-.lower-part a {
-  float: right;
+.login-btn:hover {
+  background: white;
   color: black;
+}
+.register {
+  align-items: center;
+  color: black;
+  display: flex;
+  font-weight: 500;
+}
+.divider {
+  background: #212529;
+  width: 2px;
+}
+@media (max-width: 480px) {
+  /* .register {
+
+    color: black;
+
+  } */
 }

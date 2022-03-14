@@ -1,19 +1,28 @@
-.binder {
+
+/* .binder {
   background-color: beige;
 }
 .container {
-  display: flex;
-}
+  display: flex; */
 
-.left-part {
-  padding: 30px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  width: 60vw;
-  height: 95vh;
+.homepage {
+  background: beige;
+
 }
-.right-part {
+.btt {
+  align-items: center;
+  background: black;
+  border-radius: 5px 0 0 5px;
+  color: white;
+  right: 0;
+  display: flex;
+  height: 90px;
+  justify-content: center;
+  position: fixed;
+  width: 500px;
+  height: 40px;
+}
+/* .right-part {
 }
 
 .homepage {
@@ -31,6 +40,11 @@ button {
   padding: 10px !important;
   font-size: medium;
   margin: 15px 15px 0 0 !important;
+
+  position: fixed;
+  top: 500px;
+  width: 40px;
+>>>>>>> master
 }
 
 .bottom-card {
@@ -93,3 +107,4 @@ button {
   width: 50px;
   margin: 15px;
 }
+ */

@@ -1,45 +1,100 @@
 import "./Navigation.css";
-import { Link } from "react-router-dom";
+import logo from "../../Assets/logo.png";
+import gear from "../../Assets/gear.png";
+import { useNavigate } from "react-router-dom";
 
-function Navigation({ token, id }) {
+function Navigation({ token, setToken }) {
+  const navigate = useNavigate();
   return (
-    <nav className="navigation-bar" id={id}>
-      <ul className="navigation-container">
-        <li className="navigation-link-container">
-          <Link to="/" className="links">
-            Home
-          </Link>
-        </li>
-        <li className="navigation-link-container">
-          <Link to="/contact-us" className="links">
-            Contact us
-          </Link>
-        </li>
-        <li className="navigation-link-container">
-          <Link to="/services" className="links">
-            Services
-          </Link>
-        </li>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a className="navbar-brand" href="/">
+        <img src={logo} alt="phenomenal innovator" className="branding" />
+      </a>
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
 
-        <li className="navigation-link-container">
-          {token ? (
-            <Link to="/profile" className="links">
-              Profile
-            </Link>
-          ) : (
-            <Link to="/register" className="links">
-              Register
-            </Link>
-          )}
-        </li>
-        {token && (
-          <li className="navigation-link-container">
-            <Link to="/talents" className="links">
-              Talents
-            </Link>
+      <div className="collapse navbar-collapse " id="navbarNavDropdown">
+        <ul className="navbar-nav">
+          <li className="nav-item">
+            <a className="nav-link " aria-current="page" href="/">
+              Home
+            </a>
           </li>
-        )}
-      </ul>
+          <li className="nav-item">
+            <a className="nav-link" href="/contact-us">
+              Contact us
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/#services">
+              Services
+            </a>
+          </li>
+          {token && (
+            <li className="nav-item">
+              <a className="nav-link" href="/talents">
+                Talent Pool
+              </a>
+            </li>
+          )}
+          {!token && (
+            <li className="nav-item">
+              <a className="nav-link" href="/login">
+                Login
+              </a>
+            </li>
+          )}
+          {token && (
+            <li className="nav-item dropdown">
+              <div
+                className="nav-link dropdown-toggle"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img className="gear" src={gear} alt="gear" />
+              </div>
+              <ul
+                className="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a className="dropdown-item" href="/profile">
+                    Profile
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="/talent-list">
+                    Talent List
+                  </a>
+                </li>
+                <li>
+                  <button
+                    className="dropdown-item"
+                    onClick={() => {
+                      localStorage.setItem("jobseeker", JSON.stringify({}));
+                      setToken(false);
+                      navigate("/login");
+                    }}
+                  >
+                    Logout
+                  </button>
+                </li>
+              </ul>
+            </li>
+          )}
+        </ul>
+      </div>
     </nav>
   );
 }
