@@ -45,30 +45,30 @@ function Talents() {
 
   return (
     <section className="talent-pool">
-      <div>
+      <div className="table-container">
         {/* Sets of filter button for categorizing talent */}
         <div className="button-collection">
-          <button onClick={filter} value="All">
+          <button onClick={filter} value="All" className="btn-talent">
             All
           </button>
-          <button onClick={filter} value="Virtual Assistant">
+          <button onClick={filter} value="Virtual Assistant" className="btn-talent">
             Virtual Assistant
           </button>
-          <button onClick={filter} value="Front-end Developer">
+          <button onClick={filter} value="Front-end Developer"className="btn-talent">
             Front-end Developers
           </button>
-          <button onClick={filter} value="Back-end Developer">
+          <button onClick={filter} value="Back-end Developer" className="btn-talents">
             Back-end Developers
           </button>
         </div>
-        <table>
+        <table className="table-talent">
           <thead>
             <tr>
-              <th>Full Name</th>
-              <th>Image</th>
-              <th>Gender</th>
-              <th>Contact</th>
-              <th>Field</th>
+              <th className="table-header">Full Name</th>
+              <th className="table-header">Image</th>
+              <th className="table-header">Gender</th>
+              <th className="table-header">Contact</th>
+              <th className="table-header">Field</th>
             </tr>
           </thead>
 
@@ -77,19 +77,19 @@ function Talents() {
             return (
               <tbody key={idx}>
                 <tr>
-                  <td onClick={lookFor} id={first} className="name-link">
+                  <td onClick={lookFor} id={first} className="name-link" >
                     {`${title} ${first} ${last}`}
                   </td>
-                  <td>
+                  <td className="talent-td">
                     <img
                       src={person.picture.medium}
                       alt="avatar"
                       className="img"
                     />
                   </td>
-                  <td>{person.gender}</td>
-                  <td>{person.cell}</td>
-                  <th>{person.field}</th>
+                  <td className="talent-td">{person.gender}</td>
+                  <td className="talent-td">{person.cell}</td>
+                  <th className="talent-tds">{person.field}</th>
                 </tr>
               </tbody>
             );
