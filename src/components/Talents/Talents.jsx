@@ -54,9 +54,6 @@ function Talents() {
           <button onClick={filter} value="Virtual Assistant">
             Virtual Assistant
           </button>
-          <button onClick={filter} value="Full-stack Developer">
-            Full-stack Developers
-          </button>
           <button onClick={filter} value="Front-end Developer">
             Front-end Developers
           </button>

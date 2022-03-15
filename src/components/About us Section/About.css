@@ -1,5 +1,10 @@
 .about-section {
-  height: 100vh;
+  background: beige;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 900px;
+  padding: 4vw;
 }
 .bg-card {
   align-items: center;
@@ -7,20 +12,28 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: grid;
-  grid-template-areas: "about about about";
-  grid-template-columns: repeat(3, 400px);
-  gap: 90px;
-  height: 100%;
+  box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  height: 800px;
   justify-content: center;
-  padding: 2vw;
-  width: 100%;
+  width: 80vw;
 }
-.about {
-  background: rgb(245, 245, 220, 0.8);
-  border: 1px solid rgb(33, 37, 41);
-  border-radius: 5px;
-  grid-area: about;
+
+.grid-display {
+  display: grid;
+  column-gap: 60px;
+  grid-template-areas:
+    "header header header"
+    "card-0 card-1 card-2";
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px;
+  padding: 0 60px;
+}
+
+.header {
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  text-shadow: -5px 5px 5px black;
+  grid-area: header;
   padding: 20px;
   text-align: center;
 }
@@ -30,9 +43,18 @@
   border-radius: 5px;
   cursor: pointer;
   font-weight: 500;
-  height: 480px;
-  padding: 10px;
+  height: 500px;
+  padding: 15px;
   transition: all 0.3s;
+}
+.card-0 {
+  grid-area: card-0;
+}
+.card-1 {
+  grid-area: card-1;
+}
+.card-2 {
+  grid-area: card-2;
 }
 .card:hover {
   transform: scale(1.1);
@@ -55,4 +77,17 @@
 }
 .card-logo {
   width: 70%;
+}
+.desc-box {
+  align-items: center;
+  background: white;
+  border: 1px solid rgb(33, 37, 41);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  height: 300px;
+}
+@media (max-width: 1200px) {
 }
