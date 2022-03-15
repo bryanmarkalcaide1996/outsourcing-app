@@ -10,6 +10,7 @@ import Profile from "./components/Profile/Profile";
 import Talents from "./components/Talents/Talents";
 import talents from "./components/utils/data";
 import Jobseeker from "./components/Jobseeker Profile/Jobseeker";
+import ContactUs from "./components/Contact Us Section/ContactUs";
 
 function App() {
   const [database] = useState(useGetData("users", "arr"));
@@ -46,6 +47,9 @@ function App() {
 
           {/* Client Profile Route */}
           <Route path="/profile" element={<Profile setToken={setToken} />} />
+
+          {/* Contac Us Route */}
+          <Route exact path="/contact-us" element={<ContactUs />} />
         </Routes>
       </Router>
     </div>
