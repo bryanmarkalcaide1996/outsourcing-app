@@ -11,7 +11,7 @@
   padding-right: 60px;
 }
 .left-content h1 {
-  font-size: 4.8rem;
+  font-size: 4vw;
   font-weight: black;
 }
 .left-content p {
@@ -50,4 +50,12 @@
   box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.5);
   object-fit: cover;
   object-position: left;
+}
+@media (max-width: 950px) {
+  .hero-section {
+    flex-direction: column-reverse;
+  }
+  .left-content h1 {
+    font-size: 4vw;
+  }
 }

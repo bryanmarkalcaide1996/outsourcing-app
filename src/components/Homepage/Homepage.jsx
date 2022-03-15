@@ -10,8 +10,8 @@ function Homepage() {
         <div className="btt">Top</div>
       </a>
       <Hero />
-      <About />
       <Services />
+      <About />
     </article>
   );
 }

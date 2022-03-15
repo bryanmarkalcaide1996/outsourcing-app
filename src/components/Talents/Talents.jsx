@@ -64,11 +64,11 @@ function Talents() {
         <table>
           <thead>
             <tr>
-              <th>Full Name</th>
-              <th>Image</th>
-              <th>Gender</th>
-              <th>Contact</th>
-              <th>Field</th>
+              <th className="th-head">Full Name</th>
+              <th className="th-head">Image</th>
+              <th className="th-head">Gender</th>
+              <th className="th-head">Contact</th>
+              <th className="th-head">Field</th>
             </tr>
           </thead>
 

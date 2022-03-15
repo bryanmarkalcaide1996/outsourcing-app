@@ -3,7 +3,6 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  height: 900px;
   padding: 4vw;
 }
 .section-card {
@@ -26,6 +25,7 @@
   border: none;
   border-radius: 5px;
   color: white;
+  margin-top: 20px;
 }
 @media (max-width: 1200px) {
 }
