@@ -1,13 +1,71 @@
 .talent-pool {
   display: flex;
   justify-content: center;
+  background-image: url(/src/Assets/bg\ table.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.table-container {
+  margin: 30px;
 }
 .name-link {
+  border: 2px solid black;
   cursor: pointer;
+  padding: 3px 20px;
+  border-right: none !important;
+  border-left: none !important;
 }
 .img {
   width: 50px;
   height: auto;
+  margin: 7px 20px !important;
+}
+
+.button-collection {
+  text-align: center;
+  padding: 15px;
+  background-color: black;
+}
+.btn-talent {
+  margin-right: 55px;
+  color: white;
+  background-color: black;
+  border: none;
+}
+.btn-talents {
+  color: white;
+  background-color: black;
+  border: none;
+}
+.table-talent {
+  opacity: 90%;
+  background-color: white;
+  border: 2px solid black;
+  border-top: none;
+}
+
+.table-header {
+  text-align: center;
+  padding: 5px 35px !important;
+  background-color: grey;
+  opacity: 80%;
+  color: white;
+}
+
+.talent-td {
+  border: 2px solid black;
+  border-right: none !important;
+  border-left: none !important;
+  padding: 3px 20px;
+  text-align: center;
+}
+.talent-tds {
+  text-align: center;
+  padding: 0 10px;
+  border: 2px solid black;
+  border-right: none !important;
+  border-left: none !important;
 }
 .th-head {
   padding: 10px;
