@@ -3,13 +3,13 @@ import { servicesData } from "../utils/data.js";
 
 function Services() {
   return (
-    <section className="services-section" id="services">
+    <section className="section-container" id="services">
       <div className="bg-card section-card">
         <h1 className="header">Services</h1>
         <div className="grid-display">
-          {servicesData.map((item, idx) => {
+          {servicesData.map((item) => {
             return (
-              <div className={`card card-${idx} services`}>
+              <div className="card">
                 <div className="img-frame">
                   <img className="images" src={item.img} alt="" />
                 </div>

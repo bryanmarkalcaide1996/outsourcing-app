@@ -2,9 +2,11 @@
   display: flex;
   justify-content: center;
   background-image: url(/src/Assets/bg\ table.jpg);
-  background-size: cover;
+  background-size: fill;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  height: 100vh;
+  overflow: auto;
 }
 .table-container {
   margin: 30px;

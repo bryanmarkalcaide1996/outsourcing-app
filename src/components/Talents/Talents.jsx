@@ -87,7 +87,7 @@ function Talents() {
           {filteredData.map((person, idx) => {
             const { title, first, last } = person.name;
             return (
-              <tbody key={idx}>
+              <tbody key={idx} className="internal-scrolling">
                 <tr>
                   <td onClick={lookFor} id={first} className="name-link">
                     {`${title} ${first} ${last}`}

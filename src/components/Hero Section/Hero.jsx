@@ -6,7 +6,7 @@ function Hero() {
   return (
     <section className="hero-section" id="hero">
       <div className="left-content">
-        <h1>Optimizing Your Business Website Page. Starts Here!</h1>
+        <h1>Growing your business online starts Here!</h1>
         <p>The Phenomenal Innovator</p>
         <a href="#services">
           <button> Find Out More</button>

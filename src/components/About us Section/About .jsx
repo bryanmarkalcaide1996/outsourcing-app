@@ -3,13 +3,13 @@ import { cardData } from "../utils/data.js";
 
 function About() {
   return (
-    <section className="about-section" id="about">
+    <section className="section-container" id="about">
       <div className="bg-card">
         <h1 className="header">About us</h1>
         <div className="grid-display">
-          {cardData.map((item, idx) => {
+          {cardData.map((item) => {
             return (
-              <div className={`card card-${idx}`}>
+              <div className="card">
                 <div className="grouping-1">
                   <div className="circle">
                     <img className="card-logo" src={item.logo} alt="" />
