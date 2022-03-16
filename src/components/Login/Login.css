@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  padding: 20px;
 }
 .login-form {
   align-items: center;
@@ -58,9 +59,10 @@ input {
   width: 2px;
 }
 @media (max-width: 480px) {
-  /* .register {
-
-    color: black;
-
-  } */
+  .bottom-area {
+    flex-direction: column;
+  }
+  .divider {
+    display: none;
+  }
 }

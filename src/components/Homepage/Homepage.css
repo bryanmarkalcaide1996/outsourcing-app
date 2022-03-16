@@ -2,12 +2,11 @@
   background: beige;
 }
 .btt {
-  align-items: center;
   background: black;
   border-radius: 5px 0 0 5px;
   color: white;
-  right: 0;
   display: flex;
+  right: 0;
   height: 90px;
   justify-content: center;
   position: fixed;

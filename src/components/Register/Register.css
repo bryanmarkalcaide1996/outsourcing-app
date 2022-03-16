@@ -66,13 +66,11 @@
 .registration-label:last-child span {
   visibility: hidden;
 }
-
 @media (max-width: 820px) {
   .input-fields {
     width: 70vw;
   }
 }
-
 @media (max-width: 480px) {
   .registration-label {
     align-items: flex-start;

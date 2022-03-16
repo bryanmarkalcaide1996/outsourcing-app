@@ -79,3 +79,29 @@
   padding: 10px;
   width: 200px;
 }
+
+@media (max-width: 690px) {
+  .jobseeker-container {
+    height: auto;
+  }
+  .contact-info {
+    flex-direction: column-reverse;
+  }
+  .profile-container {
+    box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    overflow: hidden;
+    height: auto;
+  }
+}
+@media (max-width: 520px) {
+  .color-theme {
+    flex-direction: column;
+  }
+  .left-box {
+    padding: 0;
+  }
+  .cta-button {
+    width: 100%;
+  }
+}

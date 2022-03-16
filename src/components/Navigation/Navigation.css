@@ -14,10 +14,6 @@
 .nav-link:hover {
   transform: scale(1.1);
 }
-.nav-item {
-  align-items: center;
-  display: flex;
-}
 .gear:hover {
   animation: rotation 10s infinite linear;
 }

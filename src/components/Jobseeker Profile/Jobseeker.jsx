@@ -39,6 +39,7 @@ function Jobseeker() {
               alt={person.name.first}
             />
           </figure>
+
           <div className="name-field">
             <h1>{`${first} ${last}`}</h1>
             <p className="field-text">{field}</p>

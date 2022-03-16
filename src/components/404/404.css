@@ -1,9 +1,9 @@
 .err {
-  display: flex;
   background: url("../../Assets/Err404.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
   justify-content: space-around;
   width: 100%;
   height: 100vh;

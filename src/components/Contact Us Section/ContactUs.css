@@ -1,19 +1,15 @@
 .contact-us-section {
-  align-items: center;
   background: beige;
-  display: flex;
   justify-content: center;
   padding: 4vw;
 }
 .form {
   background: url("../../Assets/message2.jpg");
-  align-items: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 5px;
   box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.5);
-  display: flex;
   flex-direction: column;
   padding: 20px;
   width: 500px;
@@ -42,4 +38,9 @@
 .contact-input:last-child:hover {
   background: white;
   color: #212529;
+}
+@media (max-width: 550px) {
+  .form {
+    width: auto;
+  }
 }

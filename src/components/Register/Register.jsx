@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { v4 as uniqueID } from "uuid";
 import "./Register.css";
 import useValidate from "../utils/useValidate";
+import { Navigate, useNavigate } from "react-router-dom";
 
 function Register({ database }) {
   // This state will fetch initial data on local storage
@@ -18,6 +19,7 @@ function Register({ database }) {
   const [errorLogs, setErrorLogs] = useState({});
   const [errorStat, setErrorStat] = useState(false);
   const [catalyst, setCatalyst] = useState(null);
+  const navigate = useNavigate();
 
   function handleChange(e) {
     const { name, value } = e.target;
@@ -37,8 +39,9 @@ function Register({ database }) {
         const newUser = { id: uniqueID(), ...catalyst };
         return [...prevState, newUser];
       });
+      navigate("/reg-success");
     }
-  }, [errorLogs, errorStat, catalyst]);
+  }, [errorLogs, errorStat, catalyst, navigate]);
 
   useEffect(() => {
     userDataBase && localStorage.setItem("users", JSON.stringify(userDataBase));
