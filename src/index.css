@@ -5,6 +5,7 @@
   list-style: none !important;
   margin: 0;
   padding: 0;
+  resize: none !important;
   text-decoration: none !important;
 }
 h1,

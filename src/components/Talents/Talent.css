@@ -1,69 +1,59 @@
 .talent-pool {
-  display: flex;
-  justify-content: center;
+  align-items: center;
   background-image: url(/src/Assets/bg\ table.jpg);
-  background-size: cover;
+  background-size: fill;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  display: flex;
+  height: 92.9vh;
+  justify-content: center;
+  color: white;
 }
 .table-container {
-  margin: 30px;
-}
-.name-link {
-  border: 2px solid black;
-  cursor: pointer;
-  padding: 3px 20px;
-  border-right: none !important;
-  border-left: none !important;
-}
-.img {
-  width: 50px;
-  height: auto;
-  margin: 7px 20px !important;
+  display: grid;
+  flex: 1;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  height: 700px;
+  overflow: hidden;
+  padding: 90px;
 }
 
-.button-collection {
-  text-align: center;
-  padding: 15px;
-  background-color: black;
+.internal-container {
+  overflow-y: scroll;
 }
-.btn-talent {
-  margin-right: 55px;
-  color: white;
-  background-color: black;
+.internal-container::-webkit-scrollbar {
+  display: none;
+}
+.talent-banner-heading {
+  background: #212529;
+  border-radius: 5px;
+  padding: 25px;
+  text-align: center;
+}
+.talent-container {
+  align-items: center;
+  background: #212529;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 10px;
+}
+.talent-img-container {
+  border-radius: 5px;
+  overflow: hidden;
+}
+.narrative {
+  flex: 2;
+  padding: 0 15px;
+}
+.card-item {
+  padding: 0;
+  margin: 0;
+}
+.view-profile {
   border: none;
-}
-.btn-talents {
-  color: white;
-  background-color: black;
-  border: none;
-}
-.table-talent {
-  opacity: 90%;
-  background-color: white;
-  border: 2px solid black;
-  border-top: none;
-}
-
-.table-header {
-  text-align: center;
-  padding: 5px 35px !important;
-  background-color: grey;
-  opacity: 80%;
-  color: white;
-}
-
-.talent-td {
-  border: 2px solid black;
-  border-right: none !important;
-  border-left: none !important;
-  padding: 3px 20px;
-  text-align: center;
-}
-.talent-tds {
-  text-align: center;
-  padding: 0 10px;
-  border: 2px solid black;
-  border-right: none !important;
-  border-left: none !important;
+  border-radius: 5px;
+  padding: 10px;
 }

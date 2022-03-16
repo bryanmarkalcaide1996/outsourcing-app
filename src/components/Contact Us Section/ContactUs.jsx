@@ -1,36 +1,71 @@
-import './ContactUs.css';
-import React, {useState, useRef, useEffect} from 'react'
+import "./ContactUs.css";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const ContactUs = () => {
-    const fNameRef = useRef(null);
-    const emailRef = useRef(null);
-    const subjectRef = useRef(null);
-    const messageRef = useRef(null);
-    const [contact, setContact] = useState([]);
 
-    const handleSubmit = (e) => {
-      e.preventDefault();
-      const formObject = {
-        fName: fNameRef.current.value,
-        email: emailRef.current.value,
-        subject: subjectRef.current.value,
-        message: messageRef.current.value,
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_USER_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_PROFILE_ID
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
         }
-  }
+      );
+    form.current.reset();
+  };
   return (
-    <div className='container'>
-      <div className='bg-card'>
-        <form className='form' action="" onSubmit={handleSubmit}>
-           <h1>Contact Us</h1> 
-            <input type="text" placeholder='Full Name' ref={fNameRef}/>
-            <input type="email" placeholder='Email' ref={emailRef}/>
-            <input type="text" placeholder='Subject' ref={subjectRef}/>
-            <textarea name="" id="" cols="48" rows="10" placeholder='Your message' ref={messageRef}/>
-            <input type="submit" value='Send Message'/>
-        </form>
-    </div>
-    </div>
-  )
-}
 
-export default ContactUs
+    <section className="contact-section">
+      <form ref={form} className="form" onSubmit={sendEmail}>
+        <h1 className="suggestion">Have suggestions?</h1>
+        <input
+          autoComplete="off"
+          type="text"
+          placeholder="Full Name"
+          name="user_name"
+          className="contact-input"
+        />
+        <input
+          autoComplete="off"
+          type="email"
+          placeholder="Email"
+          name="user_email"
+          className="contact-input"
+        />
+        <input
+          autoComplete="off"
+          type="text"
+          placeholder="Subject"
+          name="user_subject"
+          className="contact-input"
+        />
+        <textarea
+          name="message"
+          rows="10"
+          placeholder="Your message"
+          className="contact-input"
+        />
+        <input
+          autoComplete="off"
+          type="button"
+          value="Send"
+          className="contact-input"
+        />
+      </form>
+    </section>
+  );
+};
+
+export default ContactUs;

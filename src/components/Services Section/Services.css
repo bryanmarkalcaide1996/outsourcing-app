@@ -1,19 +1,8 @@
-.services-section {
-  background: white;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  height: 900px;
-  padding: 4vw;
-}
 .section-card {
   background-image: url("../../Assets/office.jpg") !important;
 }
-.services {
-  justify-content: space-between;
-}
 .img-frame {
-  height: 200px;
+  height: 220px;
   display: flex;
 }
 .images {
@@ -26,6 +15,5 @@
   border: none;
   border-radius: 5px;
   color: white;
-}
-@media (max-width: 1200px) {
+  margin-top: 20px;
 }

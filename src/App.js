@@ -48,7 +48,7 @@ function App() {
           {/* Client Profile Route */}
           <Route path="/profile" element={<Profile setToken={setToken} />} />
 
-          {/* Contac Us Route */}
+          {/* Contact Us Route */}
           <Route exact path="/contact-us" element={<ContactUs />} />
         </Routes>
       </Router>

@@ -1,21 +1,38 @@
-.container{
-    width: 100%;
-    justify-content: center;
+
+.contact-section {
+  align-items: center;
+  background: beige;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
 }
-.bg-card {
-    align-items: center;
-    background-image: url("../../Assets/contactus.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.3);
-    height: 800px;
-    justify-content: center;
-    width: 80vw;
-  }
-.form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.form {
+  border-radius: 5px;
+  box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.suggestion {
+  background: #212529;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.contact-input {
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.contact-input:nth-child(5) {
+  padding: 10px;
+}
+.contact-input:last-child {
+  background: #212529;
+  color: white;
+}
+.contact-input:last-child:hover {
+  background: white;
+  color: #212529;
 }
