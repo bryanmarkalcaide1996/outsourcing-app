@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 const ContactUs = () => {
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -25,6 +26,7 @@ const ContactUs = () => {
     form.current.reset();
   };
   return (
+
     <section className="contact-section">
       <form ref={form} className="form" onSubmit={sendEmail}>
         <h1 className="suggestion">Have suggestions?</h1>
