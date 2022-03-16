@@ -11,6 +11,8 @@ import Talents from "./components/Talents/Talents";
 import talents from "./components/utils/data";
 import Jobseeker from "./components/Jobseeker Profile/Jobseeker";
 import ContactUs from "./components/Contact Us Section/ContactUs";
+import Footer from "./components/Footer/Footer";
+import Error404 from "./components/404/Error404";
 
 function App() {
   const [database] = useState(useGetData("users", "arr"));
@@ -48,10 +50,14 @@ function App() {
           {/* Client Profile Route */}
           <Route path="/profile" element={<Profile setToken={setToken} />} />
 
-          {/* Contact Us Route */}
-          <Route exact path="/contact-us" element={<ContactUs />} />
+          {/* Contact Us Route
+          <Route exact path="/contact-us" element={<ContactUs />} /> */}
+
+          {/* Non-existent Route Handler */}
+          <Route path="*" element={<Error404 />} />
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }

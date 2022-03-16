@@ -1,6 +1,7 @@
 import "./ContactUs.css";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import message from "../../Assets/message2.jpg";
 
 const ContactUs = () => {
   const form = useRef();
@@ -25,7 +26,7 @@ const ContactUs = () => {
     form.current.reset();
   };
   return (
-    <section className="contact-section">
+    <section className="contact-us-section" id="contact-us">
       <form ref={form} className="form" onSubmit={sendEmail}>
         <h1 className="suggestion">Have suggestions?</h1>
         <input
@@ -57,7 +58,7 @@ const ContactUs = () => {
         />
         <input
           autoComplete="off"
-          type="button"
+          type="submit"
           value="Send"
           className="contact-input"
         />

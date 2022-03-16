@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   display: flex;
-  height: 92.9vh;
+  height: 100vh;
   justify-content: center;
   color: white;
 }
@@ -56,4 +56,35 @@
   border: none;
   border-radius: 5px;
   padding: 10px;
+}
+@media (max-width: 1400px) {
+  .talent-pool,
+  .table-container {
+    height: auto;
+  }
+}
+@media (max-width: 550px) {
+  .table-container {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 30px;
+  }
+}
+@media (max-width: 435px) {
+  .table-container {
+    padding: 10px;
+  }
+  .talent-container {
+    display: grid;
+  }
+  .talent-img-container {
+    grid-area: 1/1/3/2;
+  }
+  .narrative {
+    grid-area: 1/2/2/6;
+    font-size: 12px;
+  }
+  .view-profile {
+    grid-area: 2/2/3/6;
+    padding: 5px;
+  }
 }

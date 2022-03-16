@@ -7,9 +7,9 @@ function Services() {
       <div className="bg-card section-card">
         <h1 className="header">Services</h1>
         <div className="grid-display">
-          {servicesData.map((item) => {
+          {servicesData.map((item, idx) => {
             return (
-              <div className="card">
+              <div className="card" key={idx}>
                 <div className="img-frame">
                   <img className="images" src={item.img} alt="" />
                 </div>
