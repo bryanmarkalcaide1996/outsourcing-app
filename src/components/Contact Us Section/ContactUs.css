@@ -1,8 +1,18 @@
 .container{
     width: 100%;
-    display: flex;
-    
+    justify-content: center;
 }
+.bg-card {
+    align-items: center;
+    background-image: url("../../Assets/contactus.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    height: 800px;
+    justify-content: center;
+    width: 80vw;
+  }
 .form{
     display: flex;
     flex-direction: column;
