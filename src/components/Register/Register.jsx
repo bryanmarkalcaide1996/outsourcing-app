@@ -157,7 +157,7 @@ function Register({ database }) {
                 value={registerUser.phoneNumber}
               />
             </label>
-            <sup className="small-text">
+            <sup className="small-textOptional">
               {errorLogs.phoneNumber ? errorLogs.phoneNumber : "*Optional"}
             </sup>
 
