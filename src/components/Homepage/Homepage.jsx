@@ -2,7 +2,6 @@ import "./Homepage.css";
 import Hero from "../Hero Section/Hero";
 import Services from "../Services Section/Services";
 import About from "../About us Section/About ";
-import ContactUs from "../Contact Us Section/ContactUs";
 
 function Homepage() {
   return (
@@ -13,7 +12,6 @@ function Homepage() {
       <Hero />
       <Services />
       <About />
-      <ContactUs />
     </article>
   );
 }

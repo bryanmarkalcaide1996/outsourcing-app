@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import "./Profile.css";
 
 function Profile() {
   const navigate = useNavigate();
@@ -9,9 +10,9 @@ function Profile() {
   });
 
   return (
-    <div>
+    <article className="profile-section">
       <h1>This is your profile</h1>
-    </div>
+    </article>
   );
 }
 

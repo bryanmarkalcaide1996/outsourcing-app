@@ -1,0 +1,23 @@
+.tl-widget {
+  height: 100vh;
+}
+.red {
+  border-color: red;
+  color: red;
+}
+.red:active {
+  animation: nudge 0.3s linear;
+}
+@keyframes nudge {
+  0% {
+    transform: rotate(-7deg);
+  }
+
+  33% {
+    transform: rotate(7deg);
+  }
+
+  66% {
+    transform: rotate(-7deg);
+  }
+}

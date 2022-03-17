@@ -1,5 +1,8 @@
 .contact-us-section {
+  align-items: center;
+  display: flex;
   background: beige;
+  height: 100vh;
   justify-content: center;
   padding: 4vw;
 }
@@ -40,6 +43,9 @@
   color: #212529;
 }
 @media (max-width: 550px) {
+  .contact-us-section {
+    height: auto;
+  }
   .form {
     width: auto;
   }

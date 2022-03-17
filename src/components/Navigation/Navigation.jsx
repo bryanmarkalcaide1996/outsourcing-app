@@ -35,7 +35,7 @@ function Navigation({ token, setToken }) {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/#contact-us">
+            <a className="nav-link" href="/contact-us">
               Contact us
             </a>
           </li>

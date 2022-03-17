@@ -1,16 +1,17 @@
 import "./Jobseeker.css";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import badge from "../../Assets/verified.png";
 import contact from "../../Assets/phone.png";
 import address from "../../Assets/location.png";
 import mail from "../../Assets/email.png";
 import { useNavigate } from "react-router-dom";
+import useSendToList from "../utils/useSendToList";
 
 function Jobseeker() {
   // Fetches the data from the database for rendering purposes
   const person = JSON.parse(localStorage.getItem("jobseeker"));
+  const [err, setErr] = useState({ style: "", status: false });
   const navigate = useNavigate();
-
   useEffect(() => {
     !JSON.parse(localStorage.getItem("isLoggedIn")) && navigate("/login");
     JSON.parse(localStorage.getItem("isLoggedIn"));
@@ -28,6 +29,12 @@ function Jobseeker() {
     },
     services,
   } = person;
+
+  function usePushToList(e) {
+    const { id } = e.target;
+    useSendToList(id, person, setErr);
+  }
+
   return (
     <article className="jobseeker-container">
       <div className="profile-container">
@@ -74,7 +81,13 @@ function Jobseeker() {
             </figure>
 
             <button className="cta-button main-cta">Send Message</button>
-            <button className="cta-button">Add to Queue</button>
+            <button
+              className={`cta-button ${err.style}`}
+              id={person.id.value}
+              onClick={usePushToList}
+            >
+              {err.status ? "Already added" : "Add to Queue"}
+            </button>
           </div>
 
           <div className="right-box">
