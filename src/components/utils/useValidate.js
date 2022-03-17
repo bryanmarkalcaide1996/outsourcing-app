@@ -71,13 +71,16 @@ export default function useValidate(data, retrieveInfo) {
     if (foundData) {
       if (foundData.passwordInput !== passwordInput) {
         error.passwordInput = "* Invalid password !";
-      } else if (foundData.usernameInput !== usernameInput) {
-        error.usernameInput = "* Username does not exist !";
-      } else {
+      }
+      if (
+        foundData.usernameInput === usernameInput &&
+        foundData.passwordInput === passwordInput
+      ) {
         retrieveInfo(foundData);
         return error;
       }
     } else {
+      error.usernameInput = "* Username does not exist !";
     }
 
     if (!usernameInput || usernameInput?.length < 8) {
