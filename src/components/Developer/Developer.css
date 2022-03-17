@@ -1,0 +1,32 @@
+.container-dev {
+  display: flex;
+  flex-direction: column;
+}
+.yunis-section {
+  display: inline-flex;
+}
+.profile-dev {
+  padding: 30px;
+}
+.yunis {
+  width: 40rem;
+  height: 40rem;
+}
+.bry {
+  margin: 0 auto;
+  width: 35rem;
+  height: 35rem;
+}
+.info-dev {
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.yunis-btn {
+  background-color: beige;
+  padding: 5px;
+}
