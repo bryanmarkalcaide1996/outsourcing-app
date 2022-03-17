@@ -13,6 +13,7 @@ import ContactUs from "./components/Contact Us Section/ContactUs";
 import Footer from "./components/Footer/Footer";
 import Error404 from "./components/404/Error404";
 import Talentlist from "./components/Clients List/Talentlist";
+import Developer from "./components/Developer/Developer";
 
 function App() {
   const [database] = useState(useGetData("users", "arr"));
@@ -38,6 +39,8 @@ function App() {
           <Route exact path="/contact-us" element={<ContactUs />} />
           {/* Client's Talent-List*/}
           <Route exact path="/talent-list" element={<Talentlist />} />
+          {/*Developer Section*/}
+          <Route exact path="/developer" element={<Developer/>} />
           {/* Non-existent Route Handler */}
           <Route path="*" element={<Error404 />} />
         </Routes>
