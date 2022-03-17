@@ -1,11 +1,14 @@
-.tl-wrapper {
-  box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.5);
-  width: 50vw;
-}
 .tl-widget {
   align-items: center;
   display: flex;
+  height: 100vh;
   justify-content: center;
+}
+.tl-wrapper {
+  box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 900px;
+  max-height: 770px;
+  overflow-y: scroll;
 }
 .tl-card {
   align-items: center;
@@ -17,17 +20,23 @@
 }
 .frame {
   border-radius: 5px;
+  box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.5);
   width: 95px;
   height: 95px;
+  margin-right: 15px;
   overflow: hidden;
 }
 .tl-img {
   width: 100%;
   object-fit: contain;
 }
+.tl-description h4,
+.tl-description h5 {
+  margin: 0 40px;
+}
 .tl-description p {
   padding: 0;
-  margin: 0 40px;
+  margin: 10px 40px;
 }
 .btn-container {
   display: flex;
@@ -35,4 +44,33 @@
 }
 .btn {
   margin: 5px 0;
+}
+.callToAction {
+  display: flex;
+  flex-direction: column;
+}
+.callToAction p {
+  margin-top: 20px;
+}
+@media (max-width: 900px) {
+  .bucket-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+  .card-mini {
+    flex-direction: column;
+  }
+
+  .btn-container {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .tl-widget {
+    padding: 20px;
+    height: auto;
+  }
+  .frame {
+    margin: 20px 0;
+  }
 }

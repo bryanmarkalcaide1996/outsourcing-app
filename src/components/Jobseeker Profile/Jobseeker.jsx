@@ -15,7 +15,6 @@ function Jobseeker() {
   useEffect(() => {
     !JSON.parse(localStorage.getItem("currentUser")).isAuthenticated &&
       navigate("/login");
-    // JSON.parse(localStorage.getItem("isLoggedIn"));
   });
 
   const {
@@ -34,6 +33,9 @@ function Jobseeker() {
   function usePushToList(e) {
     const { id } = e.target;
     useSendToList(id, person, setErr);
+    setTimeout(() => {
+      navigate("/talents");
+    }, 1000);
   }
 
   return (
