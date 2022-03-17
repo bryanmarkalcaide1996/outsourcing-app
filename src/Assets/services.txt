@@ -1,0 +1,32 @@
+Virtual Assistant
+A virtual assistant is someone who works from a remote location to provide administrative services to clients. Virtual assistants are typically independent, self-employed contractors, though you can also work with a virtual assistant agency. One of the primary benefits of hiring a virtual assistant is that small businesses can pick and choose which services they require. This level of adaptability can save business owners thousands of dollars each year while also allowing them to expand their contract as their company grows and requires more services.
+
+     Activities that the Virtual Assistant will carry out:
+Manage your Business Social Media Account
+Manage your Business Website
+Provide for your online customer's needs.
+Take charge of your product.
+
+
+
+Front - End Developer
+Front-end web development, also known as client-side development, is the practice of creating HTML, CSS, and JavaScript for a website or Web Application so that a user can directly see and interact with them. The difficulty with front end development is that the tools and techniques used to create the front end of a website change all the time, so the developer must always be aware of how the field is evolving. A front end web developer is also responsible for ensuring that there are no errors or bugs on the front end, as well as that the design appears as it should across various platforms and browsers. All of these tasks are critical for a positive user experience.
+
+      Activities that the Front - End Developer will carry out:
+Improving the user experience.
+Bringing concepts to life with HTML, JavaScript, and CSS.
+Creating and updating the user interface.
+Designing and implementing mobile websites
+Developing tools that improve site interaction regardless of browser.
+Managing software workflow.
+
+
+Back - End Developer
+A back-end web developer is in charge of server-side web application logic and integrating the work done by front-end developers. Back-end developers typically create the web services and APIs that front-end developers and mobile application developers rely on.
+
+    Activities that the Back - End Developer will carry out:
+Integration of user-facing elements created by front-end developers with server-side logic
+Creating reusable code and libraries to be used in the future
+Security and data protection implementation
+Application optimization for maximum speed and scalability
+Data storage solution design and implementation

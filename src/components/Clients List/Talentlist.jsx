@@ -1,14 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
+import useGetData from "../utils/useGetData";
 import "./Talentlist.css";
 
 function Talentlist() {
-  const bucketList = JSON.parse(localStorage.getItem("currentUser")).clientList;
+  const [bucketList, setBucketList] = useState(
+    JSON.parse(localStorage.getItem("currentUser"))
+  );
+
+  function deleteItem(e) {
+    const { id } = e.target;
+    console.log(bucketList.clientList);
+    const x = bucketList.clientList.filter((item) => item.id !== id);
+    console.log(x);
+  }
   return (
     <section className="tl-widget">
       <div className="tl-wrapper">
         <div className="bucket-container">
           <div className="category-header"></div>
-          {bucketList.map((listItem) => {
+          {bucketList?.clientList.map((listItem) => {
             const {
               field,
               name: { first, last },
@@ -34,7 +44,13 @@ function Talentlist() {
                 </div>
                 <div className="btn-container">
                   <button className=" btn btn-dark">Send Contract</button>
-                  <button className=" btn btn-light">Remove</button>
+                  <button
+                    className=" btn btn-light"
+                    onClick={deleteItem}
+                    id={id}
+                  >
+                    Remove
+                  </button>
                 </div>
               </div>
             );

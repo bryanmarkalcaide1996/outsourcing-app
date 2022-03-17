@@ -6,7 +6,18 @@ import useGetData from "../utils/useGetData";
 
 function Navigation() {
   const navigate = useNavigate();
-  const token = useGetData("currentUser", "obj")?.isAuthenticated;
+  const users = useGetData("users", "arr");
+  const token = useGetData("currentUser", "obj");
+  const filteredData = users.filter(
+    (currentUser) => currentUser?.id !== token?.id
+  );
+
+  function handleSubmit() {
+    localStorage.setItem("jobseeker", JSON.stringify({}));
+    localStorage.setItem("users", JSON.stringify([...filteredData, token]));
+    localStorage.removeItem("currentUser");
+    navigate("/login");
+  }
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -47,21 +58,21 @@ function Navigation() {
               About
             </a>
           </li>
-          {token && (
+          {token?.isAuthenticated && (
             <li className="nav-item">
               <a className="nav-link" href="/talents">
                 Talent Pool
               </a>
             </li>
           )}
-          {!token && (
+          {!token?.isAuthenticated && (
             <li className="nav-item">
               <a className="nav-link" href="/login">
                 Login
               </a>
             </li>
           )}
-          {token && (
+          {token?.isAuthenticated && (
             <li className="nav-item dropdown">
               <div
                 className="nav-link dropdown-toggle"
@@ -87,14 +98,7 @@ function Navigation() {
                   </a>
                 </li>
                 <li>
-                  <button
-                    className="dropdown-item"
-                    onClick={() => {
-                      localStorage.setItem("jobseeker", JSON.stringify({}));
-                      localStorage.removeItem("currentUser");
-                      navigate("/login");
-                    }}
-                  >
+                  <button className="dropdown-item" onClick={handleSubmit}>
                     Logout
                   </button>
                 </li>
