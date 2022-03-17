@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import useGetData from "../utils/useGetData";
+import React, { useEffect, useState } from "react";
 import "./Talentlist.css";
 
 function Talentlist() {
@@ -9,10 +8,16 @@ function Talentlist() {
 
   function deleteItem(e) {
     const { id } = e.target;
-    console.log(bucketList.clientList);
-    const x = bucketList.clientList.filter((item) => item.id !== id);
-    console.log(x);
+    setBucketList({
+      ...bucketList,
+      clientList: bucketList.clientList.filter(
+        (item) => item.login.uuid !== id
+      ),
+    });
   }
+  useEffect(() => {
+    localStorage.setItem("currentUser", JSON.stringify(bucketList));
+  });
   return (
     <section className="tl-widget">
       <div className="tl-wrapper">

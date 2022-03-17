@@ -14,7 +14,13 @@ function Navigation() {
 
   function handleSubmit() {
     localStorage.setItem("jobseeker", JSON.stringify({}));
-    localStorage.setItem("users", JSON.stringify([...filteredData, token]));
+    localStorage.setItem(
+      "users",
+      JSON.stringify([
+        ...filteredData,
+        JSON.parse(localStorage.getItem("currentUser")),
+      ])
+    );
     localStorage.removeItem("currentUser");
     navigate("/login");
   }
