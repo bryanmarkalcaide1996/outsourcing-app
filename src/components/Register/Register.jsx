@@ -15,6 +15,9 @@ function Register({ database }) {
     firstName: "",
     lastName: "",
     phoneNumber: "",
+    isSubscribed: false,
+    isAuthenticated: false,
+    clientList: [],
   });
   const [errorLogs, setErrorLogs] = useState({});
   const [errorStat, setErrorStat] = useState(false);
@@ -39,9 +42,8 @@ function Register({ database }) {
         const newUser = { id: uniqueID(), ...catalyst };
         return [...prevState, newUser];
       });
-      navigate("/reg-success");
     }
-  }, [errorLogs, errorStat, catalyst, navigate]);
+  }, [errorLogs, errorStat, catalyst]);
 
   useEffect(() => {
     userDataBase && localStorage.setItem("users", JSON.stringify(userDataBase));
@@ -53,6 +55,9 @@ function Register({ database }) {
       firstName: "",
       lastName: "",
       phoneNumber: "",
+      isSubscribed: false,
+      isAuthenticated: false,
+      clientList: [],
     });
   }, [userDataBase]);
 

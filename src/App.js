@@ -8,7 +8,6 @@ import useGetData from "./components/utils/useGetData";
 import Navigation from "./components/Navigation/Navigation";
 import Profile from "./components/Profile/Profile";
 import Talents from "./components/Talents/Talents";
-import talents from "./components/utils/data";
 import Jobseeker from "./components/Jobseeker Profile/Jobseeker";
 import ContactUs from "./components/Contact Us Section/ContactUs";
 import Footer from "./components/Footer/Footer";
@@ -17,26 +16,16 @@ import Talentlist from "./components/Clients List/Talentlist";
 
 function App() {
   const [database] = useState(useGetData("users", "arr"));
-  const [token, setToken] = useState(
-    JSON.parse(localStorage.getItem("isLoggedIn"))
-  );
-
-  useEffect(() => {
-    !JSON.parse(localStorage.getItem("isLoggedIn")) &&
-      localStorage.setItem("jobseeker", JSON.stringify({}));
-    localStorage.setItem("isLoggedIn", JSON.stringify(token));
-    localStorage.setItem("jobseekers", JSON.stringify(talents));
-  });
 
   return (
     <div className="App">
       <Router>
-        <Navigation token={token} setToken={setToken} />
+        <Navigation />
         <Routes>
           {/* Home Route */}
           <Route exact path="/" element={<Homepage />} />
           {/* Login Route */}
-          <Route path="/login" element={<Login setToken={setToken} />} />
+          <Route path="/login" element={<Login />} />
           {/* Register Route */}
           <Route path="/register" element={<Register database={database} />} />
           {/* Job seeker Profile Route */}
@@ -44,7 +33,7 @@ function App() {
           {/* Talents Route */}
           <Route path="/talents" element={<Talents />} />
           {/* Client Profile Route */}
-          <Route path="/profile" element={<Profile setToken={setToken} />} />
+          <Route path="/profile" element={<Profile />} />
           {/* Contact Us Route */}
           <Route exact path="/contact-us" element={<ContactUs />} />
           {/* Client's Talent-List*/}

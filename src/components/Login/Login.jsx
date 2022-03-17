@@ -1,12 +1,15 @@
-import React from "react";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import useGetData from "../utils/useGetData";
 import useValidate from "../utils/useValidate";
 import "./Login.css";
 
 function Login({ setToken }) {
   const [user, setUser] = useState({ usernameInput: "", passwordInput: "" });
   const [errorLogs, setErrorLogs] = useState({});
+  const [retrieveUserInfo, setRetrieveUserInfo] = useState(
+    useGetData("currentUser", "obj")
+  );
   const [errorStat, setErrorStat] = useState(false);
   const navigate = useNavigate();
 
@@ -17,17 +20,19 @@ function Login({ setToken }) {
 
   function useHandleSubmit(e) {
     e.preventDefault();
-    setErrorLogs(useValidate(user));
+    setErrorLogs(useValidate(user, setRetrieveUserInfo));
     setErrorStat(true);
   }
 
   useEffect(() => {
     if (Object.keys(errorLogs).length === 0 && errorStat) {
-      setToken(true);
-      localStorage.setItem("isLoggedIn", JSON.stringify(true));
+      localStorage.setItem(
+        "currentUser",
+        JSON.stringify({ ...retrieveUserInfo, isAuthenticated: true })
+      );
       navigate("/profile");
     }
-  }, [errorLogs, errorStat, setToken, navigate]);
+  }, [errorLogs, errorStat, setToken, navigate, retrieveUserInfo]);
   return (
     <div className="login-section">
       <div className="login-form-container">

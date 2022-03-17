@@ -4,9 +4,10 @@ import "./Profile.css";
 
 function Profile() {
   const navigate = useNavigate();
+  const token = JSON.parse(localStorage.getItem("currentUser")).isAuthenticated;
 
   useEffect(() => {
-    !JSON.parse(localStorage.getItem("isLoggedIn")) && navigate("/login");
+    !token && navigate("/login");
   });
 
   return (

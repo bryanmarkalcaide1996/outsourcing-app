@@ -18,18 +18,11 @@
   overflow: hidden;
   padding: 90px;
 }
-
 .internal-container {
   overflow-y: scroll;
 }
 .internal-container::-webkit-scrollbar {
   display: none;
-}
-.talent-banner-heading {
-  background: #212529;
-  border-radius: 5px;
-  padding: 25px;
-  text-align: center;
 }
 .talent-container {
   align-items: center;
@@ -57,7 +50,6 @@
   border-radius: 5px;
   padding: 10px;
 }
-
 @media (max-width: 1400px) {
   .talent-pool,
   .table-container {

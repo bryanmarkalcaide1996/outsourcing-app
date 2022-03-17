@@ -13,8 +13,9 @@ function Jobseeker() {
   const [err, setErr] = useState({ style: "", status: false });
   const navigate = useNavigate();
   useEffect(() => {
-    !JSON.parse(localStorage.getItem("isLoggedIn")) && navigate("/login");
-    JSON.parse(localStorage.getItem("isLoggedIn"));
+    !JSON.parse(localStorage.getItem("currentUser")).isAuthenticated &&
+      navigate("/login");
+    // JSON.parse(localStorage.getItem("isLoggedIn"));
   });
 
   const {
@@ -83,10 +84,14 @@ function Jobseeker() {
             <button className="cta-button main-cta">Send Message</button>
             <button
               className={`cta-button ${err.style}`}
-              id={person.id.value}
+              id={person.login.uuid}
               onClick={usePushToList}
             >
-              {err.status ? "Already added" : "Add to Queue"}
+              {err.status
+                ? "Already added"
+                : err.style
+                ? "Successfully Added"
+                : "Add to Queue"}
             </button>
           </div>
 

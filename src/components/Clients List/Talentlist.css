@@ -1,23 +1,38 @@
+.tl-wrapper {
+  box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 50vw;
+}
 .tl-widget {
-  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
-.red {
-  border-color: red;
-  color: red;
+.tl-card {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
 }
-.red:active {
-  animation: nudge 0.3s linear;
+.frame {
+  border-radius: 5px;
+  width: 95px;
+  height: 95px;
+  overflow: hidden;
 }
-@keyframes nudge {
-  0% {
-    transform: rotate(-7deg);
-  }
-
-  33% {
-    transform: rotate(7deg);
-  }
-
-  66% {
-    transform: rotate(-7deg);
-  }
+.tl-img {
+  width: 100%;
+  object-fit: contain;
+}
+.tl-description p {
+  padding: 0;
+  margin: 0 40px;
+}
+.btn-container {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  margin: 5px 0;
 }

@@ -1,11 +1,11 @@
 import "./Talent.css";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import useGetData from "../utils/useGetData.js";
 import Filtered from "./Filtered";
+import talents from "../utils/data";
 
 function Talents() {
-  const [data] = useState(useGetData("jobseekers", "arr"));
+  const data = talents;
   const [person, setPerson] = useState({});
   const navigate = useNavigate();
 
@@ -15,7 +15,8 @@ function Talents() {
 
   //  Redirect to individual profile when changes in dependencies detected.
   useEffect(() => {
-    !JSON.parse(localStorage.getItem("isLoggedIn")) && navigate("/login");
+    !JSON.parse(localStorage.getItem("currentUser")).isAuthenticated &&
+      navigate("/login");
     if (Object.keys(person).length > 0) {
       localStorage.setItem("jobseeker", JSON.stringify(person));
       navigate("/jobseeker");

@@ -2,9 +2,12 @@ import "./Navigation.css";
 import logo from "../../Assets/logo.png";
 import gear from "../../Assets/gear.png";
 import { useNavigate } from "react-router-dom";
+import useGetData from "../utils/useGetData";
 
-function Navigation({ token, setToken }) {
+function Navigation() {
   const navigate = useNavigate();
+  const token = useGetData("currentUser", "obj")?.isAuthenticated;
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <a className="navbar-brand" href="/">
@@ -88,7 +91,7 @@ function Navigation({ token, setToken }) {
                     className="dropdown-item"
                     onClick={() => {
                       localStorage.setItem("jobseeker", JSON.stringify({}));
-                      setToken(false);
+                      localStorage.removeItem("currentUser");
                       navigate("/login");
                     }}
                   >

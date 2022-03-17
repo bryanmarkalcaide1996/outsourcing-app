@@ -1,26 +1,33 @@
-import useGetData from "./useGetData";
-
 export default function useSendToList(id, personData, errCallBack) {
-  console.log(id);
-  console.log(personData);
-  console.log(errCallBack);
+  const bucket = JSON.parse(localStorage.getItem("currentUser"));
+  console.log(bucket);
 
-  const bucket = useGetData("client-list", "arr");
-  if (bucket) {
-    const double = bucket.filter((existing) => existing.id.value === id);
-
+  if (bucket.clientList) {
+    const double = bucket.clientList.filter(
+      (existing) => existing.login.uuid === id
+    );
     if (double.length > 0) {
       errCallBack({ style: "red", status: true });
       console.log("will not let this in");
     } else {
       localStorage.setItem(
-        "client-list",
-        JSON.stringify([...bucket, { ...personData }])
+        "currentUser",
+        JSON.stringify({
+          ...bucket,
+          clientList: [...bucket.clientList, { ...personData }],
+        })
       );
-      console.log("will let this in");
+      errCallBack((prevState) => {
+        return { ...prevState, style: "green" };
+      });
     }
   } else {
-    localStorage.setItem("client-list", JSON.stringify([{ ...personData }]));
-    console.log("not on list, will add this");
+    localStorage.setItem(
+      "currentUser",
+      JSON.stringify({ ...bucket, clientList: [{ ...personData }] })
+    );
+    errCallBack((prevState) => {
+      return { ...prevState, style: "green" };
+    });
   }
 }

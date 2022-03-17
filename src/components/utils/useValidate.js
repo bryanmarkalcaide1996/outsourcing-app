@@ -1,6 +1,6 @@
 import useGetData from "./useGetData";
 
-export default function useValidate(data) {
+export default function useValidate(data, retrieveInfo) {
   let db = useGetData("users", "arr");
   const regEx = /^[^\s@]+@[^\s@]+.[^\s@]{2,}$/;
   const regX =
@@ -14,6 +14,7 @@ export default function useValidate(data) {
     firstName,
     lastName,
     phoneNumber,
+    id,
   } = data;
 
   // This line will retrieve data from database based on the criteria given below
@@ -70,9 +71,13 @@ export default function useValidate(data) {
     if (foundData) {
       if (foundData.passwordInput !== passwordInput) {
         error.passwordInput = "* Invalid password !";
+      } else if (foundData.usernameInput !== usernameInput) {
+        error.usernameInput = "* Username does not exist !";
+      } else {
+        retrieveInfo(foundData);
+        return error;
       }
     } else {
-      error.usernameInput = "* Username does not exist !";
     }
 
     if (!usernameInput || usernameInput?.length < 8) {

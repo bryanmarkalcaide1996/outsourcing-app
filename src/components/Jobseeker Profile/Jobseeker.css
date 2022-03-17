@@ -79,6 +79,28 @@
   padding: 10px;
   width: 200px;
 }
+.red {
+  border-color: red;
+  color: red;
+}
+.red:active {
+  animation: nudge 0.3s linear;
+}
+.green {
+  border-color: green;
+  color: green;
+}
+@keyframes nudge {
+  0% {
+    transform: rotate(-7deg);
+  }
+  33% {
+    transform: rotate(7deg);
+  }
+  66% {
+    transform: rotate(-7deg);
+  }
+}
 
 @media (max-width: 690px) {
   .jobseeker-container {
