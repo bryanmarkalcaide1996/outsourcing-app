@@ -14,7 +14,8 @@ import Footer from "./components/Footer/Footer";
 import Error404 from "./components/404/Error404";
 import Talentlist from "./components/Clients List/Talentlist";
 import Developer from "./components/Developer/Developer";
-import ServicesPage from "./components/ServicesLandingPage/ServicesPage";
+import Pricing from "./components/Pricing/Pricing.jsx";
+import Learn from "./components/Learn More Section/Learn";
 
 function App() {
   const [database] = useState(useGetData("users", "arr"));
@@ -41,9 +42,11 @@ function App() {
           {/* Client's Talent-List*/}
           <Route exact path="/talent-list" element={<Talentlist />} />
           {/*Developer Section*/}
-          <Route exact path="/developer" element={<Developer/>} />
-          {/* service page test */}
-          <Route exact path="/servicepage" element={<ServicesPage/>} />
+          <Route exact path="/developer" element={<Developer />} />
+          {/* Service page test */}
+          <Route exact path="/pricing" element={<Pricing />} />
+          {/* Article page test */}
+          <Route exact path="/article" element={<Learn />} />
           {/* Non-existent Route Handler */}
           <Route path="*" element={<Error404 />} />
         </Routes>

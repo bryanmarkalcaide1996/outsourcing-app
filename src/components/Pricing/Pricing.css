@@ -1,0 +1,16 @@
+.pricing-card {
+  background: url("../../Assets/deals.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pricing-wrapper {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.product-list {
+  font-size: 0.9rem;
+  margin: 20px 0;
+  padding: 0;
+}

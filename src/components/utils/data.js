@@ -4,6 +4,54 @@ import setting from "../../Assets/setting.png";
 import virtualAssistant from "../../Assets/VirtualAssistant.jpg";
 import frontEnd from "../../Assets/FrontEnd.jpg";
 import backEnd from "../../Assets/BackEnd.jpg";
+import startup from "../../Assets/startup.png";
+import business from "../../Assets/Business.png";
+import enterprise from "../../Assets/enterprise.png";
+import bckend from "../../Assets/bckend.jpg";
+import fntend from "../../Assets/about bg.jpg";
+import virtAsst from "../../Assets/virtAssist.jpg";
+
+export const servicesArticle = [
+  {
+    image: virtAsst,
+    header: "Virtual Assistance",
+    desc: "A virtual assistant is someone who works from a remote location to provide administrative services to clients. Virtual assistants are typically independent, self-employed contractors, though you can also work with a virtual assistant agency. One of the primary benefits of hiring a virtual assistant is that small businesses can pick and choose which services they require. This level of adaptability can save business owners thousands of dollars each year while also allowing them to expand their contract as their company grows and requires more services.",
+    sub: "Activities that the Virtual Assistant will carry out:",
+    tasks: [
+      " Manage your Business Social Media Account",
+      "Manage your Business Website",
+      ` Provide for your online customer's needs.`,
+      ` Take charge of your product.`,
+    ],
+  },
+  {
+    image: fntend,
+    header: "Front-end Development Assistance",
+    desc: "Front-end web development, also known as client-side development, is the practice of creating HTML, CSS, and JavaScript for a website or Web Application so that a user can directly see and interact with them. The difficulty with front end development is that the tools and techniques used to create the front end of a website change all the time, so the developer must always be aware of how the field is evolving. A front end web developer is also responsible for ensuring that there are no errors or bugs on the front end, as well as that the design appears as it should across various platforms and browsers. All of these tasks are critical for a positive user experience.",
+    sub: "Activities that the Front - End Developer will carry out:",
+    tasks: [
+      "Improving the user experience.",
+      "Bringing concepts to life with HTML, JavaScript, and CSS.",
+      "Creating and updating the user interface.",
+      "Designing and implementing mobile websites",
+      "Developing tools that improve site interaction regardless of browser.",
+      "Managing software workflow.",
+    ],
+  },
+  {
+    image: bckend,
+    header: "Back-End Development Assistance",
+    desc: "A back-end web developer is in charge of server-side web application logic and integrating the work done by front-end developers. Back-end developers typically create the web services and APIs that front-end developers and mobile application developers rely on.",
+    sub: "Activities that the Back - End Developer will carry out:",
+    tasks: [
+      "Integration of user-facing elements created by front-end developers with server-side logic",
+      "Creating reusable code and libraries to be used in the future",
+      "Security and data protection implementation",
+      "Application optimization for maximum speed and scalability",
+      "Data storage solution design and implementation",
+    ],
+  },
+];
 
 export const cardData = [
   {
@@ -51,6 +99,42 @@ export const servicesData = [
     title: "Back-End Development Assistance",
     desc: " We create, code, and improve the server, server-side applications, and databases that, when combined with front-end codes, help create a functional, seamless experience for the end-user.",
     img: backEnd,
+  },
+];
+
+export const pricing = [
+  {
+    img: startup,
+    title: "Startup",
+    package: [
+      "1 expert of your own choosing.",
+      "24/7 support.",
+      "30-Day Money-back guarantee.(T&C Applied)",
+    ],
+    price: "$1,500 / monthly",
+    btnTxt: "Choose Plan",
+  },
+  {
+    img: business,
+    title: "Business",
+    package: [
+      "6 expert of your own choosing.",
+      "24/7 support.",
+      "30-Day Money-back guarantee.(T&C Applied)",
+    ],
+    price: "$5,500 / monthly",
+    btnTxt: "Choose Plan",
+  },
+  {
+    img: enterprise,
+    title: "Enterprise",
+    package: [
+      "9 expert of your own choosing.",
+      "24/7 support.",
+      "30-Day Money-back guarantee.(T&C Applied)",
+    ],
+    price: "$9,500 / monthly",
+    btnTxt: "Choose Plan",
   },
 ];
 

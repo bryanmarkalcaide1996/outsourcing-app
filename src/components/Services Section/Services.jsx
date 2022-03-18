@@ -1,7 +1,20 @@
 import "./Services.css";
-import { servicesData } from "../utils/data.js";
+import { servicesArticle, servicesData } from "../utils/data.js";
+import { useNavigate } from "react-router-dom";
 
 function Services() {
+  const navigate = useNavigate();
+
+  function handleClick(e) {
+    const { id } = e.target;
+    console.log(id);
+    const article = servicesArticle.find((current) => current.header === id);
+    sessionStorage.setItem("currentArticle", JSON.stringify(article));
+    setTimeout(() => {
+      navigate("/article");
+    }, 1000);
+  }
+
   return (
     <section className="section-container" id="services">
       <div className="bg-card section-card">
@@ -14,10 +27,16 @@ function Services() {
                   <img className="images" src={item.img} alt="" />
                 </div>
                 <div className="description">
-                  <h2>{item.title}</h2>
+                  <h3>{item.title}</h3>
                   <div>{item.desc}</div>
                 </div>
-                <button className="services-btn">Learn more</button>
+                <button
+                  className="services-btn"
+                  id={item.title}
+                  onClick={handleClick}
+                >
+                  Learn more
+                </button>
               </div>
             );
           })}

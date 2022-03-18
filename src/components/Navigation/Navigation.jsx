@@ -64,6 +64,11 @@ function Navigation() {
               About
             </a>
           </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/pricing">
+              Pricing
+            </a>
+          </li>
           {token?.isAuthenticated && (
             <li className="nav-item">
               <a className="nav-link" href="/talents">
