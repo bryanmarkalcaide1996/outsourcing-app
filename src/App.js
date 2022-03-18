@@ -42,7 +42,7 @@ function App() {
           {/* Client's Talent-List*/}
           <Route exact path="/talent-list" element={<Talentlist />} />
           {/*Developer Section*/}
-          <Route exact path="/developer" element={<Developer />} />
+          <Route exact path="/developers" element={<Developer />} />
           {/* Service page test */}
           <Route exact path="/pricing" element={<Pricing />} />
           {/* Article page test */}
