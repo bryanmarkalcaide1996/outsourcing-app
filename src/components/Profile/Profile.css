@@ -1,3 +1,31 @@
 .profile-section {
+  display: flex;
+  margin: 50px 100px auto 100px ;
+  flex-direction: row;
+  border: solid black 2px;
+  gap: 20px;
+}
+.first-section{
+  display: flex;
+  width: auto;
   height: 100vh;
+  background-color: gray;
+  align-items: center;
+  flex-direction: column;
+}
+.second-section{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100vh;
+  background-color: white;
+  align-items: center;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+}
+.box-content{
+  background-color: aquamarine;
+  width: 20vw;
 }

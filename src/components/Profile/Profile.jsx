@@ -12,7 +12,22 @@ function Profile() {
 
   return (
     <article className="profile-section">
-      <h1>This is your profile</h1>
+      <div className="first-section">
+        <img src="" alt="" />
+        <p>Client ID: asdfasdfasdf</p>
+        <h1>Edit Profile</h1>
+      </div>
+      <div className="second-section">
+        <div className="buttons">
+         <button>Inbox</button>
+          <button>Hired Talents</button>
+          <button>Talent List</button>
+        </div>
+        <div className="box-content">
+              Empty Box
+        </div>
+      </div>
+
     </article>
   );
 }
