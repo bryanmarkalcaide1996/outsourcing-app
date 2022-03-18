@@ -1,5 +1,7 @@
+import { useNavigate } from "react-router-dom";
 import "./Learn.css";
 function Learn() {
+  const navigate = useNavigate();
   const { header, desc, sub, tasks, image } = JSON.parse(
     sessionStorage.getItem("currentArticle")
   );
@@ -24,6 +26,14 @@ function Learn() {
               );
             })}
           </ul>
+          <button
+            className="btn btn-success"
+            onClick={() => {
+              navigate("/");
+            }}
+          >
+            Back to Home
+          </button>
         </section>
       </div>
     </article>

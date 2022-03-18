@@ -1,5 +1,6 @@
 .contact-us-section {
   align-items: center;
+  background: rgba(0, 0, 0, 0.5) !important;
   display: flex;
   background: beige;
   height: 100vh;
@@ -7,10 +8,11 @@
   padding: 4vw;
 }
 .form {
-  background: url("../../Assets/message2.jpg");
+  background: white;
+  /* background: url("../../Assets/message2.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   border-radius: 5px;
   box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.5);
   flex-direction: column;
@@ -33,15 +35,7 @@
 .contact-input:nth-child(5) {
   padding: 10px;
 }
-.contact-input:last-child {
-  background: #212529;
-  color: white;
-  opacity: 100%;
-}
-.contact-input:last-child:hover {
-  background: white;
-  color: #212529;
-}
+
 @media (max-width: 550px) {
   .contact-us-section {
     height: auto;
