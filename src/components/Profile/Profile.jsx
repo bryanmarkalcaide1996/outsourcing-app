@@ -12,7 +12,24 @@ function Profile() {
 
   return (
     <article className="profile-section">
-      <h1>This is your profile</h1>
+      <h1 className="your-prof">Your Profile</h1> 
+      <div className="profile-container">
+        <div className="first-section">
+          <div className="img-profile"></div>
+          <p>Client ID: asdfasdfasdf</p>
+          <button className="btn btn-dark">Edit Profile</button>
+        </div>
+        <div className="second-section">
+          <div className="buttons">
+          <button className="btn btn-dark buttons-size">Inbox</button>
+            <button className="btn btn-dark buttons-size" >Hired Talents</button>
+            <button className="btn btn-dark buttons-size">Talent List</button>
+          </div>
+          <div className="box-content">
+                Empty Box
+          </div>
+        </div>
+      </div>
     </article>
   );
 }

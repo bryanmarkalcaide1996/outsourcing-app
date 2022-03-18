@@ -1,0 +1,19 @@
+.section-card {
+    background-image: url("../../Assets/office.jpg") !important;
+  }
+  .img-frame {
+    height: 220px;
+    display: flex;
+  }
+  .images {
+    width: 100%;
+    object-fit: cover;
+  }
+  .services-btn {
+    padding: 10px;
+    background: rgb(33, 37, 41);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+  }
