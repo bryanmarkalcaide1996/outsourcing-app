@@ -14,6 +14,7 @@ import Footer from "./components/Footer/Footer";
 import Error404 from "./components/404/Error404";
 import Talentlist from "./components/Clients List/Talentlist";
 import Developer from "./components/Developer/Developer";
+import ServicesPage from "./components/ServicesLandingPage/ServicesPage";
 
 function App() {
   const [database] = useState(useGetData("users", "arr"));
@@ -41,6 +42,8 @@ function App() {
           <Route exact path="/talent-list" element={<Talentlist />} />
           {/*Developer Section*/}
           <Route exact path="/developer" element={<Developer/>} />
+          {/* service page test */}
+          <Route exact path="/servicepage" element={<ServicesPage/>} />
           {/* Non-existent Route Handler */}
           <Route path="*" element={<Error404 />} />
         </Routes>
