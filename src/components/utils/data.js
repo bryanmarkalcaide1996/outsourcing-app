@@ -10,6 +10,30 @@ import enterprise from "../../Assets/enterprise.png";
 import bckend from "../../Assets/bckend.jpg";
 import fntend from "../../Assets/about bg.jpg";
 import virtAsst from "../../Assets/virtAssist.jpg";
+import bryan from "../../Assets/akoLang2.png";
+import abby from "../../Assets/yunis.png";
+import macky from "../../Assets/Macky.png";
+
+export const meetTheTeam = [
+  {
+    name: "Bryan Mark",
+    narrative: "I'm a full-stack developer",
+    image: bryan,
+    link: "https://fast-harbor-74924.herokuapp.com/",
+  },
+  {
+    name: "Abby Eunice",
+    narrative: "I'm a full-stack developer",
+    image: abby,
+    link: "https://eunice-webpage.herokuapp.com/",
+  },
+  {
+    name: "Mackinley",
+    narrative: "I'm a full-stack developer",
+    image: macky,
+    link: "https://dry-reaches-99921.herokuapp.com/",
+  },
+];
 
 export const servicesArticle = [
   {

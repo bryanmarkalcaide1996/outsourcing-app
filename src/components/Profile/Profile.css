@@ -1,3 +1,60 @@
 .profile-section {
-  height: 100vh;
+  align-items: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.user-profile {
+  border-radius: 5px;
+  box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  height: 800px;
+  overflow: hidden;
+  width: 60vw;
+}
+.greeting {
+  padding: 20px;
+  background: #212529;
+}
+.portion-container {
+  display: flex;
+  height: 100%;
+}
+.left-portion {
+  color: #212529;
+  flex: 1;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.profile-pic {
+  align-items: center;
+  border-radius: 50%;
+  border: 3px solid #212529;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  overflow: hidden;
+  width: 200px;
+}
+.profile {
+  object-position: top;
+  width: 100%;
+}
+.upload {
+  display: none;
+}
+.upload-label {
+  display: block;
+  margin: 20px 0 !important;
+}
+.userId {
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+.right-portion {
+  flex: 2;
 }

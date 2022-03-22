@@ -1,6 +1,5 @@
 .contact-us-section {
   align-items: center;
-  background: rgba(0, 0, 0, 0.5) !important;
   display: flex;
   background: beige;
   height: 100vh;
@@ -8,13 +7,10 @@
   padding: 4vw;
 }
 .form {
-  background: white;
-  /* background: url("../../Assets/message2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
+  background: rgba(0, 0, 0, 0.5) !important;
+
   border-radius: 5px;
-  box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.2);
   flex-direction: column;
   padding: 20px;
   width: 500px;
@@ -28,9 +24,11 @@
   width: 100%;
 }
 .contact-input {
-  margin: 10px 0;
-  width: 100%;
+  border: none;
   border-radius: 5px;
+  margin: 10px 0;
+  opacity: 1;
+  width: 100%;
 }
 .contact-input:nth-child(5) {
   padding: 10px;

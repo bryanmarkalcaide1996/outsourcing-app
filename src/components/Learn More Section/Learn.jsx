@@ -11,11 +11,9 @@ function Learn() {
         <div className="article-image-frame">
           <img src={image} alt={header} className="article-image" />
         </div>
-        <section className="introduction">
+        <section className="mission">
           <h1 className="heading">{header}</h1>
           <p>{desc}</p>
-        </section>
-        <section className="mission">
           <h2>{sub}</h2>
           <ul>
             {tasks.map((listItem, idx) => {

@@ -8,6 +8,7 @@ function Register({ database }) {
   // This state will fetch initial data on local storage
   const [userDataBase, setUserDataBase] = useState(database);
   const [registerUser, setRegisterUser] = useState({
+    profileImage: "",
     usernameInput: "",
     emailInput: "",
     passwordInput: "",
@@ -48,6 +49,7 @@ function Register({ database }) {
   useEffect(() => {
     userDataBase && localStorage.setItem("users", JSON.stringify(userDataBase));
     setRegisterUser({
+      profileImage: "",
       usernameInput: "",
       emailInput: "",
       passwordInput: "",

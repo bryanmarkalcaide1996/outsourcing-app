@@ -1,7 +1,6 @@
 import "./ContactUs.css";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import message from "../../Assets/message2.jpg";
 
 const ContactUs = () => {
   const form = useRef();

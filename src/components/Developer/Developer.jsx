@@ -1,58 +1,41 @@
-import React from "react";
-import Yunis from "../../Assets/yunis.png";
-import Bry from "../../Assets/Bryan.png";
-import Mack from "../../Assets/Mack.png";
 import "../Developer/Developer.css";
+import { meetTheTeam } from "../utils/data.js";
 
 function Developer(props) {
   return (
-    <div className="container-dev">
-      <div className="yunis-section">
-        <div className="profile-dev">
-          <img src={Yunis} className="yunis" />
-        </div>
-        <div className="info-dev">
-          <h2 className="yunis-name">Hey! I'm Eunice</h2>
-          <p className="yunis-info">
-            I'm a Full-stack Developer. My work background is more on developing
-            both client and server software.
-          </p>
-          <a href="https://eunice-webpage.herokuapp.com/">
-            <button className="yunis-btn">Learn More About Me!</button>
-          </a>
-        </div>
+    <section className="section-container">
+      <h1 className="team">Meet our Team</h1>
+      <div className="grid-display">
+        {meetTheTeam.map((dev, idx) => {
+          const { name, narrative, image, link } = dev;
+          return (
+            <div className="card dev" key={idx}>
+              <div className="heading-tab">
+                <div className="circles "></div>
+                <div className="circles "></div>
+                <div className="circles "></div>
+              </div>
+              <div className="image-container">
+                <img className="avatar" src={image} alt={name} />
+              </div>
+
+              <div className="narrative">
+                <h3>Hey! I'm {name}</h3>
+                <p className="description">{narrative}</p>
+              </div>
+              <a
+                href={link}
+                className="btn btn-lg btn-dark"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Learn more
+              </a>
+            </div>
+          );
+        })}
       </div>
-      <div className="yunis-section">
-        <div className="info-dev">
-          <h2 className="yunis-name">Hey! I'm Bryan</h2>
-          <p className="yunis-info">
-            I'm a Full-stack Developer. My work background is more on developing
-            both client and server software.
-          </p>
-          <a href="https://fast-harbor-74924.herokuapp.com/">
-            <button className="yunis-btn">Learn More About Me!</button>
-          </a>
-        </div>
-        <div className="profile-dev">
-          <img src={Bry} className="bry" />
-        </div>
-      </div>
-      <div className="yunis-section">
-        <div className="profile-dev">
-          <img src={Mack} className="yunis" />
-        </div>
-        <div className="info-dev">
-          <h2 className="yunis-name">Hey! Mackinley</h2>
-          <p className="yunis-info">
-            I'm a Full-stack Developer. My work background is more on developing
-            both client and server software.
-          </p>
-          <a href="https://dry-reaches-99921.herokuapp.com/">
-            <button className="yunis-btn">Learn More About Me!</button>
-          </a>
-        </div>
-      </div>
-    </div>
+    </section>
   );
 }
 

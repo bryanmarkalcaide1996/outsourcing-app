@@ -9,8 +9,7 @@
 .circle {
   display: flex;
   align-items: center;
-  background: rgb(33, 37, 41, 0.5);
-  border: 1px solid rgb(33, 37, 41);
+  border: 2px solid rgb(33, 37, 41);
   border-radius: 50%;
   justify-content: center;
   height: 150px;
